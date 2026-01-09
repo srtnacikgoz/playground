@@ -1,0 +1,82 @@
+{
+  "name": "Sculptural Macro",
+  "version": "1.0",
+  "category": "TABLET",
+  "status": "production_ready",
+  "created": "2026-01-09",
+  "updated": "2026-01-09",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "abstract_sculptural_closeup",
+    "description": "Extreme macro texture shot - chocolate surface as sculptural art",
+    "keywords": ["macro", "texture", "sculptural", "abstract", "gallery-worthy"]
+  },
+
+  "composition": {
+    "framing": "extreme_macro",
+    "subject": "surface_texture_only",
+    "orientation": "diagonal_across_frame",
+    "background": "minimal_out_of_focus",
+    "elements_visible": ["texture", "surface_detail"],
+    "elements_hidden": ["packaging", "branding", "label", "full_product"]
+  },
+
+  "camera": {
+    "lens": "macro",
+    "depth_of_field": "shallow",
+    "focus": {
+      "type": "selective",
+      "sharp_area": "small_section",
+      "blur_areas": ["foreground", "background"],
+      "bokeh": "creamy"
+    }
+  },
+
+  "lighting": {
+    "style": "dramatic_directional",
+    "type": "professional_studio_side_lighting",
+    "direction": "raking_across_surface",
+    "highlights": "sharp_on_contours",
+    "shadows": "deep_soft",
+    "purpose": "emphasize_relief_texture_3d_depth"
+  },
+
+  "surface": {
+    "finish": "satin_tempered",
+    "characteristics": ["micro_reflections", "fine_detail", "precise_tempering"],
+    "quality": "sophisticated_elegance"
+  },
+
+  "mood": {
+    "aesthetic": "sculptural_elegant_premium",
+    "feel": "gallery_worthy",
+    "style": "fine_art_food_photography",
+    "approach": "abstract_artistic"
+  },
+
+  "reference_image": {
+    "required": true,
+    "ai_learns_from_reference": [
+      "pattern_type",
+      "color",
+      "texture_details",
+      "surface_characteristics"
+    ]
+  },
+
+  "prompt": {
+    "main": "Extreme macro photography of a premium chocolate surface captured in an abstract, sculptural close-up. The frame is filled entirely with the chocolate's textured surface pattern matching the reference image exactly, creating a continuous rhythmic visual flow. The surface appears meticulously crafted with elegant curvature and seamless transitions, evoking a sense of frozen motion and artisan craftsmanship. The chocolate has a refined satin-finish tempered surface that subtly reflects light along the highest points of the texture, while the recessed areas remain softly shadowed. Micro-reflections and fine surface details are visible, suggesting precise tempering and sophisticated elegance. Shallow depth of field used deliberately: a small section of the pattern is in sharp focus, while the foreground and background gradually blur into creamy bokeh, creating a sensual cinematic sense of depth. The composition feels abstract and artistic rather than literal, transforming the chocolate into a tactile sculptural landscape. Lighting is dramatic and directional, professional studio side-lighting raking across the surface to emphasize relief, texture, and three-dimensional depth. Sharp highlights trace the contours while deep soft shadows enhance contrast without harshness. Background completely minimal and out of focus, neutral field isolating the texture. No packaging, branding, or external elements visible. Diagonal composition across frame. Ultra-high resolution macro lens detail, fine art food photography quality, sculptural elegant premium gallery-worthy aesthetic, cinematic food styling, 8k photorealistic, matching the reference image's color and texture pattern exactly",
+    "negative": "packaging visible, branding visible, text visible, label visible, full product shot, wide angle, deep depth of field, everything in focus, flat lighting, front lighting, harsh shadows, overexposed highlights, plastic appearance, waxy surface, 3d render, cartoon style, low resolution, blurry, noise, grain, watermark, human hands, props, background elements, busy composition, centered composition, generic AI aesthetic, wrong pattern, pattern mismatch with reference, color mismatch with reference"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "fine_art_food_photography"
+  }
+}

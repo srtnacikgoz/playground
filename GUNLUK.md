@@ -269,7 +269,64 @@ Bu dosya her oturumda yapılan işleri kayıt eder.
 
 ---
 
+### Prompt Kütüphanesi Oluşturuldu (Akşam Oturumu)
+
+**Hedef:** SadeChocolate.com için standardize, universal AI prompt sistemi
+
+#### 1. Proximity Without Collision
+- **Konsept:** İki tablet çikolata, zıt açılarda (±30°), birbirine çok yakın ama ASLA dokunmadan
+- **Dosya:** `prompts/TABLET/TABLET-DUAL-ANGLE-LEVITATION-HIGHKEY-V1/`
+- **Format:** .md (manuel) + .json (programatik)
+- **Test:** ✅ Gold, Velvet, Ruby (DALL-E 3)
+- **V1 → V2 Evrimi:**
+  - V1 sorunu: DALL-E "moderate spacing"i çok ayrık yorumladı
+  - V2 çözümü: "MINIMAL GAP" + "ALMOST TOUCHING" + negative prompt'a spacing uyarıları
+- **Anahtar Terimler:** proximity without collision, dynamic tension, moment before contact
+
+#### 2. Sculptural Macro (YENİ)
+- **Konsept:** Çikolata yüzey dokusunu soyut, heykelsi sanat eseri gibi gösteren extreme macro
+- **Dosya:** `prompts/TABLET/TABLET-SCULPTURAL-MACRO-V1/`
+- **Format:** .md (manuel) + .json (programatik)
+- **Test:** ⏳ Bekliyor
+- **Özellikler:**
+  - Extreme macro (sadece doku görünür)
+  - Shallow DOF + creamy bokeh
+  - Side-lighting (raking light)
+  - Diagonal composition
+  - Pattern-agnostic (AI referanstan öğrenir)
+- **Kaynak:** Kullanıcı metin analizi + Gemini yorumu birleştirildi
+
+#### Dosya Yapısı
+```
+prompts/
+├── README.md
+└── TABLET/
+    ├── TABLET-DUAL-ANGLE-LEVITATION-HIGHKEY-V1/
+    │   ├── PROXIMITY-WITHOUT-COLLISION.md
+    │   ├── PROXIMITY-WITHOUT-COLLISION.json
+    │   └── README.md
+    └── TABLET-SCULPTURAL-MACRO-V1/
+        ├── SCULPTURAL-MACRO.md
+        ├── SCULPTURAL-MACRO.json
+        └── README.md
+```
+
+#### Kararlar
+- **Universal Prompt Yaklaşımı:** Tek prompt + referans görsel = AI pattern/renk/texture'ı referanstan öğrenir
+- **CekimPromptu.md için Lazy Loading:** 7000+ satırlık teori dokümanı her oturum okunmayacak, ihtiyaç olunca
+- **JSON Format:** Gelecek web arayüzü için programatik erişim
+
+---
+
 ## Yapılacaklar (Sonraki Oturum)
+
+- [ ] Sculptural Macro prompt'unu test et
+- [ ] Farklı tablet çikolata türleriyle test (dark, milk, white)
+- [ ] Yeni prompt kategorileri ekle (FLATLAY, HERO, vb.)
+
+---
+
+## Notlar
 
 - **Gemini Nano Banana Pro** skill'e eklendi çünkü:
   - 14 referans görsel desteği
