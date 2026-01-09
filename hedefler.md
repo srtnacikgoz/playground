@@ -1,0 +1,243 @@
+# Proje Hedefleri
+
+Bu dosya projenin kısa ve uzun vadeli hedeflerini içerir.
+
+---
+
+## 🎯 Genel Vizyon
+
+**Çekim Referans Promptu Ekosistemi**: Fotoğraf referanslarından AI prompt'ları otomatik üreten, profesyonellerin iş akışını hızlandıran bir platform.
+
+---
+
+## 📅 Kısa Vadeli Hedefler (1-2 Hafta)
+
+### ✅ Tamamlananlar
+- [x] **Skill Geliştirme (İlk Aşama)**
+  - [x] reference.md - Tüm çekim teknikleri katalogu (405 satır)
+  - [x] examples.md - 18+ senaryo örneği (325 satır)
+  - [x] platforms.md - 6 platform karşılaştırması (575 → 637 satır)
+  - [x] 5 platform şablonu (Midjourney, DALL-E, Gemini, SD, Video)
+  - [x] Gemini Nano Banana Pro entegrasyonu
+  - [x] GitHub repo dosyalarını playground'a taşıma
+
+- [x] **Skill Testleri (2026-01-08)**
+  - [x] Gerçek görsel testleri (Gold vs Bitter çikolata)
+  - [x] Platform karşılaştırması (Gemini Nano Banana Pro vs DALL-E 3)
+  - [x] Prompt kalite değerlendirmesi (Test sonuçları: 78% vs 87%)
+  - [x] Platform güçlü/zayıf yönleri belirlendi
+  - [x] Test raporu dokümante edildi (FEEDBACK.md - TEST-001)
+
+- [x] **Skill İyileştirmeleri (Test Sonuçlarına Göre)**
+  - [x] platforms.md'ye platform seçim matrisi eklendi (+62 satır)
+  - [x] dalle3-template.md'ye "Color Override Prevention" bölümü (+73 satır)
+  - [x] gemini-nanobanana-template.md'ye "High-Key Lighting İyileştirmesi" (+77 satır)
+  - [x] midjourney-template.md'ye "Prompt Uzunluk Optimizasyonu" (+150 satır)
+  - [x] Platform-specific quirk'lar dokümante edildi
+  - [x] Toplam +362 satır iyileştirme ve optimizasyon
+
+- [x] **Skill'e İki Mod Desteği Eklendi**
+  - [x] MOD 1: Referans Stil Transferi (mevcut özellik)
+  - [x] MOD 2: Tek Fotoğraf Enhancement (yeni özellik)
+  - [x] SKILL.md'ye iki mod workflow'u (+80 satır)
+  - [x] examples.md'ye 6 Mod 2 örneği (+120 satır)
+  - [x] reference.md'ye Atmosfer/Stil öneri rehberi (+90 satır)
+  - [x] Toplam +290 satır yeni özellik dokümantasyonu
+
+- [x] **Proje Yönetim Dosyaları**
+  - [x] CLAUDE.md (oturum talimatları)
+  - [x] project-rules.md (Photo Prompt Studio v2.0)
+  - [x] hedefler.md, GUNLUK.md, fikirler.md, FEEDBACK.md
+
+### 🔄 Devam Edenler
+*Şu anda aktif bir görev yok*
+
+### 📋 Bekleyenler (Sonraki Öncelikler)
+- [ ] **Ek Skill Testleri**
+  - [ ] Farklı senaryo testleri (içecek, kozmetik, vb.)
+  - [ ] Video prompt testi (Runway/Pika)
+  - [ ] Midjourney kısa prompt testi (yeni optimizasyon ile)
+
+- [ ] **Skill İyileştirmeleri**
+  - [ ] Daha fazla senaryo örneği ekle (video, motion graphics)
+  - [ ] Türkçe dil desteği ekle (opsiyonel)
+
+---
+
+## 🚀 Orta Vadeli Hedefler (2-4 Hafta)
+
+### Web Arayüzü (Photo Prompt Studio)
+
+#### Phase 1: MVP (Minimal Viable Product)
+- [ ] **Proje Kurulumu**
+  - [ ] Next.js 14 projesi oluştur
+  - [ ] Tailwind CSS + Shadcn/ui kurulumu
+  - [ ] Proje yapısını belirle (FSD)
+
+- [ ] **Temel Özellikler**
+  - [ ] Referans görsel upload (drag & drop)
+  - [ ] Gerçek fotoğraf upload
+  - [ ] Platform seçimi (dropdown)
+  - [ ] Client-side görsel analizi
+    - [ ] Color Thief entegrasyonu (renk paleti)
+    - [ ] Canvas API ile brightness/contrast hesaplama
+    - [ ] Rule-based ışık tipi tespiti
+  - [ ] Otomatik prompt oluşturma
+  - [ ] Prompt kopyalama (clipboard)
+
+#### Phase 2: Advanced Features
+- [ ] **Gelişmiş Analiz**
+  - [ ] Gemini Vision API entegrasyonu (opsiyonel)
+  - [ ] AI-powered görsel analizi
+  - [ ] Çoklu referans görsel desteği (14'e kadar)
+
+- [ ] **UI/UX İyileştirmeleri**
+  - [ ] İnce ayar sliderları (ışık, açı, atmosfer)
+  - [ ] Prompt önizleme (markdown render)
+  - [ ] Şablon kütüphanesi (Lüks, Rustik, Ticari)
+  - [ ] Prompt geçmişi (local storage)
+
+- [ ] **Platform Entegrasyonları**
+  - [ ] API key yönetimi
+  - [ ] Direkt API gönderimi (Gemini, Midjourney)
+  - [ ] Batch processing (toplu işlem)
+
+---
+
+## 🌟 Uzun Vadeli Hedefler (1-3 Ay)
+
+### SaaS Platform
+
+- [ ] **Kullanıcı Sistemi**
+  - [ ] Authentication (NextAuth.js / Clerk)
+  - [ ] Kullanıcı dashboard'u
+  - [ ] Prompt geçmişi (veritabanı)
+  - [ ] Favoriler / koleksiyonlar
+
+- [ ] **Abonelik Modeli**
+  - [ ] Freemium tier (10 prompt/ay)
+  - [ ] Pro tier ($19/ay - sınırsız)
+  - [ ] Enterprise tier ($99/ay - team features)
+  - [ ] Stripe entegrasyonu
+
+- [ ] **Gelişmiş Özellikler**
+  - [ ] A/B Testing (hangi prompt daha iyi sonuç verdi)
+  - [ ] Analytics dashboard
+  - [ ] Team/Workspace özelliği
+  - [ ] API marketplace (kullanıcılar kendi API'lerini bağlar)
+  - [ ] Custom şablon oluşturma ve paylaşma
+
+- [ ] **İçerik ve Eğitim**
+  - [ ] Prompt mühendisliği rehberleri
+  - [ ] Video tutorials
+  - [ ] Blog / vaka çalışmaları
+  - [ ] Community showcase
+
+---
+
+## 💡 Gelecek Fikirler (Backlog)
+
+- [ ] **Mobil Uygulama**
+  - [ ] React Native / Flutter
+  - [ ] Kamera entegrasyonu (direkt çekim)
+  - [ ] Offline mod
+
+- [ ] **AI Model Eğitimi**
+  - [ ] Fine-tuned model (kendi görsel analiz modelimiz)
+  - [ ] Custom LoRA eğitimi
+  - [ ] Kullanıcı feedback'i ile model iyileştirme
+
+- [ ] **Marketplace**
+  - [ ] Kullanıcıların özel şablonlarını satabilecekleri market
+  - [ ] Profesyonel fotoğrafçıların preset'leri
+  - [ ] Prompt koleksiyonları
+
+---
+
+## 🎓 Öğrenme Hedefleri
+
+- [ ] **Teknik Beceriler**
+  - [ ] Computer Vision temellerini öğren
+  - [ ] TensorFlow.js ile browser-side AI
+  - [ ] Advanced React patterns (Server Components)
+  - [ ] Edge Functions (Vercel)
+
+- [ ] **İş Geliştirme**
+  - [ ] SaaS pricing stratejileri
+  - [ ] User onboarding best practices
+  - [ ] Product-market fit araştırması
+
+---
+
+## 📊 Başarı Metrikleri
+
+### Skill (Kısa Vade)
+- [x] 2,900+ satır dokümantasyon → **3,800+ satır** (güncel - +175 satır Backdrop standardı)
+- [x] İlk test tamamlandı (2 platform karşılaştırması)
+- [x] Platform quirk'ları keşfedildi ve dokümante edildi (3 sorun çözüldü)
+- [x] İki mod desteği eklendi (Referans Transfer + Tek Fotoğraf Enhancement)
+- [x] Standart Minimal Backdrop tanımlandı (warm minimalism)
+- [ ] 10+ kullanıcı testi (şu an: 1 - internal test)
+- [ ] 5+ farklı senaryo başarısı (şu an: 1 - çikolata)
+
+**Test Metrikleri (2026-01-08):**
+- ✅ Platform sayısı: 2 test edildi (Gemini, DALL-E 3)
+- ✅ Test senaryosu: 1 (Bitter çikolata levitation shot)
+- ✅ Keşfedilen sorun: 4 (High-key lighting, Color bleeding, Prompt uzunluğu, Absence of character)
+- ✅ Çözülen sorun: 4 (Tümü çözüldü ve dokümante edildi)
+- ✅ Eklenen dokümantasyon: +827 satır (362 optimizasyon + 290 özellik + 175 backdrop)
+
+### Web Arayüzü (Orta Vade)
+- [ ] MVP'yi 2 haftada tamamla
+- [ ] İlk 10 beta kullanıcısı
+- [ ] %80+ pozitif feedback
+
+### SaaS (Uzun Vade)
+- [ ] 100+ kayıtlı kullanıcı (ilk ay)
+- [ ] 10+ ücretli abonelik (ilk 3 ay)
+- [ ] $500+ MRR (ilk 6 ay)
+
+---
+
+## 🔄 Güncellemeler
+
+Bu dosya her sprint/milestone sonunda güncellenecek.
+
+### Güncelleme Geçmişi
+
+**2026-01-08 (Gece - Son Güncelleme):**
+- Standart Minimal Backdrop tanımlandı:
+  - Off-white (RGB 250,248,245) + subtle concrete texture (%5 opacity)
+  - Warm minimalism felsefesi (Absence of character → Character var)
+  - Void değil Canvas approach
+- Skill dokümantasyonu 3,600 → 3,800+ satıra çıkarıldı (+175 satır)
+- reference.md'ye 3.6 Zemin ve Arka Plan Seçenekleri eklendi
+- 3 template dosyasına backdrop örnekleri eklendi
+- "Absence of character" kavramı öğretildi
+
+**2026-01-08 (Gece - Önceki):**
+- İki Mod desteği eklendi:
+  - MOD 1: Referans Stil Transferi (mevcut)
+  - MOD 2: Tek Fotoğraf Enhancement (yeni)
+- Skill dokümantasyonu 3,300 → 3,600+ satıra çıkarıldı (+290 satır)
+- 6 yeni stil kategorisi tanımlandı (Lüks, Minimal, Rustik, Playful, Cinematic, Editorial)
+- examples.md'ye 6 Mod 2 örneği eklendi
+- reference.md'ye Atmosfer/Stil öneri rehberi eklendi
+
+**2026-01-08 (Akşam):**
+- Skill testleri tamamlandı ve "Tamamlananlar" bölümüne taşındı
+- 2 platform karşılaştırması yapıldı (Gemini vs DALL-E 3)
+- 3 kritik sorun keşfedildi ve çözüldü:
+  - Gemini High-Key Lighting yetersizliği
+  - DALL-E 3 Color Bleeding sorunu
+  - Midjourney Prompt Uzunluk problemi
+- Skill dokümantasyonu 2,900 → 3,300+ satıra çıkarıldı (+362 satır)
+- Platform-specific optimizasyonlar tüm şablonlara eklendi
+- Başarı metrikleri güncellendi
+
+**2026-01-08 (Sabah):**
+- İlk skill oluşturuldu (2,936 satır)
+- GitHub repo entegrasyonu tamamlandı
+- Proje yönetim dosyaları güncellendi
+
+**Son Güncelleme:** 2026-01-08 (Gece - Final)
