@@ -154,6 +154,82 @@ Bu dosya Photo Prompt Studio projesi ile ilgili hataları, geri bildirimleri, iy
 - **Toplam:** +180 satır
 - **Durum:** ✅ Tamamlandı
 
+### [IMP-005] DALL-E 3 Quirk Kütüphanesi - Ruby Chocolate Testleri
+- **Kategori:** improvement
+- **Öncelik:** high
+- **Durum:** completed
+- **Tarih:** 2026-01-09
+- **Açıklama:** Ruby çikolata için 6 farklı konsept (Hero Shot, Broken Bar, Stacked Pieces, Macro Detail, Single Spotlight, Row Pattern) test edildi. DALL-E 3'ün chocolate photography'de 6 kritik quirk'ı keşfedildi ve çözüldü.
+
+**Keşfedilen Quirk'lar ve Çözümleri:**
+
+**1. Chocolate Thickness Problemi**
+- **Sorun:** AI çikolataları çok kalın yapıyor (2-3cm gerçekçi değil)
+- **Kullanıcı Feedback:** "çikolata çok kalın olmuş"
+- **Çözüm:** "5-7mm thickness (standard Sade profile)" exact specification
+- **Etki:** Tüm chocolate promptlar
+
+**2. Levitation Confusion**
+- **Sorun:** Flat-lay istenen ürünler havada asılı görünüyor
+- **Kullanıcı Feedback:** "sanki tam yere temas ediyor olsa daha güzel olurmuş"
+- **Çözüm:** "Resting completely flat on surface with full contact" + "No levitation, chocolate sits naturally"
+- **Etki:** Hero Shot, Broken Bar
+
+**3. Pattern Consistency (Stack)**
+- **Sorun:** Stacked pieces'te her parça farklı wave pattern direction'a sahip
+- **Kullanıcı Feedback:** "en üsttekinin şekil uyumsuzluğu bozmuş totali"
+- **Çözüm:** "CRITICAL: All pieces must have same wave pattern orientation" + "Same wave direction" + "All pieces from same chocolate bar"
+- **Etki:** Stacked Pieces konsepti
+
+**4. Tablet vs Piece Terminology**
+- **Sorun:** "Pieces" deyince küçük square parçalar oluşturuluyor, full bar yerine
+- **Kullanıcı Feedback:** "tam tablet daha da güzel olurmuş"
+- **Çözüm:** "Full-size bar tablets (complete bars, not small pieces)" + explicit size description
+- **Etki:** Row Pattern konsepti
+
+**5. Dramatic Spotlight Overload**
+- **Sorun:** Gallery aesthetic çok agresif, product'ı gölgeliyor, kompozisyon kötü
+- **Kullanıcı Feedback:** "#5 pek olmamış"
+- **Çözüm:** "Elegant spotlight, not theatrical" + "Refined flat-lay" + "Soft focused spotlight from 45°"
+- **Etki:** Single Spotlight konsepti - tamamen yeniden yazıldı
+
+**6. Corner Deformation (Levitation)**
+- **Sorun:** Frame köşelerinde floating elementler deforme oluyor, bulanık
+- **Kullanıcı Feedback:** "her iki görselde de sol üst köşelerinde deformasyon var"
+- **Analiz:** AI merkez odaklı training pattern, köşelerde attention düşüyor
+- **Çözüm:** "Sharp focus throughout entire frame, including corners" + "Minimal floating elements in outer edges" + element sayısı azaltma (7→4)
+- **Etki:** Levitation shots
+
+**Test Sonuçları:**
+- ✅ #4 Macro Detail: Mükemmel (değiştirilmedi)
+- ⭐ #6 Row Pattern: Güzel (tablet terminology eklendi)
+- ⚠️ #3 Stacked: İyi (pattern consistency eklendi)
+- ⚠️ #2 Broken Bar: Fena değil (thickness + porsiyon düzeltildi)
+- ⚠️ #1 Hero Shot: İyi (surface contact eklendi)
+- ❌ #5 Single Spotlight: Olmamış (tamamen yeniden yazıldı)
+
+**İyileştirmeler:**
+- 6 prompt tamamen revize edildi
+- Thickness specification (5-7mm) tüm chocolate promptlara eklendi
+- Surface contact rules netleştirildi
+- Pattern consistency kuralları eklendi
+- Terminology precision artırıldı (tablet vs piece)
+- Lighting approaches refined edildi (dramatic→elegant)
+- Corner deformation için composition rules
+
+**Eklenen Dokümantasyon:**
+- Ruby çikolata 6 konsept prompt (~1,200 satır)
+- DALL-E 3 quirk documentation (GUNLUK.md'ye eklendi)
+- Test sonuçları ve feedback notes
+
+**Başarılı Öğeler:**
+- Standart Minimal Backdrop tüm testlerde mükemmel çalıştı ✅
+- Wave texture rendering her görselde başarılı ✅
+- Ruby pink color accuracy, no bleeding ✅
+- Macro Detail (#4) hiç düzenleme gerektirmedi ✅
+
+**Durum:** ✅ Tamamlandı - 6 prompt optimize edildi, quirk'lar dokümante edildi
+
 ---
 
 ### [REFACTOR-001] Skill dosya yapısının modülerleştirilmesi değerlendirilmesi
