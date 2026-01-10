@@ -63,7 +63,60 @@ Süreç şu sırayla ilerler:
 - **TypeScript:** Strict mode aktif. `any` kullanımı yasak.
     
 
-## 🎨 5. UI/UX ve DesignOps (Nordic Noir)
+## 📸 5. Prompt Generation Strategy (IMAGE-TO-IMAGE ONLY)
+
+### ⚠️ KRITIK KURAL: Her Zaman Gerçek Ürün Fotoğrafları Kullan
+
+**ASLA** text-to-image (sıfırdan üretim) kullanma. **HER ZAMAN** image-to-image workflow:
+
+#### Image-to-Image Workflow:
+1. **Gerçek Ürün Fotoğrafı** her zaman referans olarak yüklenir
+2. Prompt, yüklenen görseli composition'a entegre eder
+3. AI, gerçek ürün estetiğini koruyarak composition oluşturur
+
+#### Örnekler:
+
+**❌ YANLIŞ (Text-to-Image):**
+```
+"Six artisan chocolate bonbons arranged in horizontal line..."
+→ AI tamamen sıfırdan 6 bonbon üretir
+```
+
+**✅ DOĞRU (Image-to-Image):**
+```
+Kullanıcı: 6 farklı bonbon fotoğrafı yükler
+Prompt: "Arrange uploaded bonbons in horizontal line creating
+color gradient. Maintain each bonbon's actual appearance,
+transfer pattern, and gold dust exactly as shown..."
+→ AI gerçek fotoğrafları kullanarak composition yapar
+```
+
+#### Konsept Başına Gerekli Fotoğraf Sayısı:
+
+| Konsept | Gerekli Fotoğraf |
+|---------|------------------|
+| HERO-MACRO | 1 bonbon |
+| TRIO-ELEGANCE | 3 bonbon |
+| COLOR-GRADIENT | 6 bonbon |
+| GRID-COLLECTION | 12 bonbon |
+| CUT-REVEAL | 1 bonbon (kesilmiş) |
+
+#### Prompt Yazma Kuralları:
+- ✅ "Using uploaded bonbon(s)..." ile başla
+- ✅ "Maintain actual appearance..." vurgula
+- ✅ Composition/arrangement talimatı ver
+- ✅ Standart backdrop belirt
+- ❌ Bonbon detaylarını sıfırdan tanımlama (transfer pattern, color, etc.)
+
+#### Neden Image-to-Image:
+- ✅ **25+ gerçek bonbon çeşidi** mevcut
+- ✅ **Marka tutarlılığı** korunur
+- ✅ **Gerçek ürün** katalog görselleri
+- ✅ **Müşteri güveni** (AI generated değil, gerçek ürün)
+
+---
+
+## 🎨 6. UI/UX ve DesignOps (Nordic Noir)
 
 - **Design Tokens:** Renk ve boşluklar Figma'dan JSON olarak beslenir (Generated Code)16.
     
@@ -72,14 +125,14 @@ Süreç şu sırayla ilerler:
 - **Modern Köşeler:** Ana elementler: `rounded-[32px]` | Kartlar: `rounded-2xl`.
     
 
-## 🔒 6. Güvenlik ve İzlenebilirlik
+## 🔒 7. Güvenlik ve İzlenebilirlik
 
 - **Edge & Security:** A/B testleri Edge seviyesinde çözülür. Tüm SDUI verileri sanitize edilerek XSS önlenir.
     
 - **Observability:** Sentry ve Session Replay ile hata analizi yapılır.
     
 
-## 🏢 7. Kurumsal Kimlik
+## 🏢 8. Kurumsal Kimlik
 
 - **Ünvan:** Sade Unlu Mamülleri San ve Tic Ltd Şti
     
@@ -96,7 +149,7 @@ Süreç şu sırayla ilerler:
 
 ---
 
-## 📜 8. Güncelleme Günlüğü (Changelog)
+## 📜 9. Güncelleme Günlüğü (Changelog)
 
 - **[v1.0-1.2]:** Temel felsefe, SDUI, FSD ve AI protokolleri tanımlandı. (Sade Patisserie uygulaması)
 
@@ -110,3 +163,11 @@ Süreç şu sırayla ilerler:
   - Hafıza yönetimi sistemi (6 zorunlu dosya: hedefler, GUNLUK, fikirler, FEEDBACK, kişiselbağlam, project-rules)
   - AI platform entegrasyonları (Gemini Vision, Midjourney, DALL-E, Stable Diffusion)
   - Kurumsal kimlik korundu (Sade Patisserie ekosistemi içinde yeni proje)
+
+- **[v2.1] - 2026-01-09:** **Prompt Generation Strategy** major update:
+  - **KRITIK:** Image-to-Image ONLY workflow (text-to-image yasak)
+  - Tüm promptlar gerçek ürün fotoğrafları ile çalışacak şekilde tasarlanır
+  - 25+ gerçek bonbon çeşidi referans olarak kullanılır
+  - Marka tutarlılığı ve müşteri güveni öncelik
+  - Prompt yazma kuralları: "Using uploaded bonbon(s)..." mandatory
+  - Konsept başına gerekli fotoğraf sayısı tanımlandı
