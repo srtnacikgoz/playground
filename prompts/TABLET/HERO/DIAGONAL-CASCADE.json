@@ -1,0 +1,94 @@
+{
+  "name": "Diagonal Cascade",
+  "version": "1.0",
+  "category": "TABLET",
+  "subcategory": "HERO",
+  "status": "testing",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "diagonal_flow_cascade",
+    "description": "Chocolate bars cascading diagonally creating waterfall effect - dynamic movement hero",
+    "keywords": ["diagonal", "cascade", "flow", "waterfall", "movement", "dynamic", "hero", "banner"]
+  },
+
+  "composition": {
+    "framing": "wide_horizontal_banner",
+    "subject": "multiple_chocolate_varieties",
+    "arrangement": "diagonal_cascade_upper_left_to_lower_right",
+    "flow": "progressive_angles",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["dark_chocolate", "milk_chocolate", "ruby_chocolate", "white_chocolate", "trailing_pieces"],
+    "elements_hidden": ["packaging"]
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "front_straight",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "all_products",
+      "sharp_area": "all_bars",
+      "blur_areas": ["background"]
+    }
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused_following_diagonal",
+    "direction": "above_following_flow",
+    "highlights": "along_cascade",
+    "shadows": "gentle",
+    "purpose": "emphasize_flow"
+  },
+
+  "mood": {
+    "aesthetic": "dynamic_flowing",
+    "feel": "waterfall_movement",
+    "style": "luxury_brand_hero",
+    "approach": "diagonal_composition"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_diverse_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "museum_like",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "type": "single_or_collage",
+    "ai_learns_from_reference": [
+      "chocolate_varieties",
+      "colors",
+      "textures",
+      "patterns"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional luxury product photography hero composition featuring MULTIPLE different chocolate bar varieties arranged in dynamic diagonal cascade flowing from upper left to lower right of wide horizontal frame, each bar at progressive angles creating sense of elegant movement and flow like a waterfall of premium chocolates. Various chocolate types (dark, milk, ruby, white) descending in harmonious sequence. Small chocolate pieces and fragments trailing along the cascade path adding motion blur suggestion. Soft diffused lighting from above following the diagonal flow. soft off-white background (adjusted to complement the diverse chocolate tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery brand hero shot, wide banner format, commercial product photography style, high-key lighting, 8k photorealistic quality",
+    "negative": "static horizontal arrangement, vertical stacking, cluttered overlapping products, single chocolate type, dark shadows, dramatic lighting, gradient background, pure white sterile background, packaging visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "luxury_brand_hero"
+  },
+
+  "use_case": {
+    "primary": "homepage_hero",
+    "format": "wide_banner",
+    "context": "brand_landing_page"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Orbital Dance",
+  "version": "1.0",
+  "category": "TABLET",
+  "subcategory": "HERO",
+  "status": "testing",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "elliptical_orbital_pattern",
+    "description": "Chocolate bars in orbital dance pattern - elegant harmonious hero",
+    "keywords": ["orbital", "dance", "elliptical", "circular", "harmonious", "elegant", "hero", "banner"]
+  },
+
+  "composition": {
+    "framing": "wide_horizontal_banner",
+    "subject": "multiple_chocolate_varieties",
+    "arrangement": "elliptical_orbital_pattern",
+    "motion": "rotational_suggestion",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["dark_chocolate", "milk_chocolate", "ruby_chocolate", "white_chocolate", "orbital_debris"],
+    "elements_hidden": ["packaging"]
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "front_straight",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "all_products",
+      "sharp_area": "all_bars",
+      "blur_areas": ["background"]
+    }
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused_omnidirectional",
+    "direction": "above",
+    "highlights": "creating_depth",
+    "shadows": "gentle_suggesting_motion",
+    "purpose": "emphasize_orbital_flow"
+  },
+
+  "mood": {
+    "aesthetic": "elegant_harmonious",
+    "feel": "synchronized_dance",
+    "style": "luxury_brand_hero",
+    "approach": "orbital_composition"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_diverse_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "museum_like",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "type": "single_or_collage",
+    "ai_learns_from_reference": [
+      "chocolate_varieties",
+      "colors",
+      "textures",
+      "patterns"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional luxury product photography hero composition featuring MULTIPLE different chocolate bar varieties arranged in elegant elliptical orbital pattern across wide horizontal frame, bars positioned as if dancing in synchronized circular motion around invisible center point. Various chocolate types (dark, milk, ruby, white) at harmonious intervals along the orbital path, each tilted to suggest rotational movement. Small chocolate pieces scattered along orbital trajectory like planetary debris. Soft diffused omnidirectional lighting creating gentle shadows suggesting depth and motion. soft off-white background (adjusted to complement the diverse chocolate tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Elegant harmonious premium confectionery brand hero shot, wide banner format, commercial product photography style, high-key lighting, 8k photorealistic quality",
+    "negative": "linear arrangement, grid pattern, static positioning, single chocolate type, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, packaging visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "luxury_brand_hero"
+  },
+
+  "use_case": {
+    "primary": "homepage_hero",
+    "format": "wide_banner",
+    "context": "brand_landing_page"
+  }
+}

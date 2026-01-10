@@ -1,0 +1,94 @@
+{
+  "name": "Floating Constellation",
+  "version": "1.0",
+  "category": "TABLET",
+  "subcategory": "HERO",
+  "status": "testing",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "multi_product_constellation",
+    "description": "Multiple chocolate varieties floating in constellation pattern - dreamy premium hero shot",
+    "keywords": ["constellation", "floating", "multi-product", "dreamy", "premium", "hero", "banner"]
+  },
+
+  "composition": {
+    "framing": "wide_horizontal_banner",
+    "subject": "multiple_chocolate_varieties",
+    "arrangement": "constellation_pattern",
+    "spacing": "generous_negative_space",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["dark_chocolate", "milk_chocolate", "ruby_chocolate", "white_chocolate", "scattered_pieces"],
+    "elements_hidden": ["packaging"]
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "front_straight",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "all_products",
+      "sharp_area": "all_bars",
+      "blur_areas": ["background"]
+    }
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused_omnidirectional",
+    "direction": "above",
+    "highlights": "subtle_on_each_bar",
+    "shadows": "gentle",
+    "purpose": "clean_premium_presentation"
+  },
+
+  "mood": {
+    "aesthetic": "dreamy_premium",
+    "feel": "constellation_harmony",
+    "style": "luxury_brand_hero",
+    "approach": "floating_levitation"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_diverse_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "museum_like",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "type": "single_or_collage",
+    "ai_learns_from_reference": [
+      "chocolate_varieties",
+      "colors",
+      "textures",
+      "patterns"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional luxury product photography hero composition featuring MULTIPLE different chocolate bar varieties floating in elegant levitation arrangement resembling a constellation, each bar tilted at unique complementary angles creating visual harmony and dynamic flow across wide horizontal frame. Various chocolate types visible (dark, milk, ruby, white) each with distinct surface textures and colors. Small chocolate pieces and fragments scattered throughout the composition orbiting around main bars adding movement and energy. Soft diffused omnidirectional lighting with subtle highlights on each bar's surface. Generous negative space between products allowing each to breathe while maintaining cohesive composition. soft off-white background (adjusted to complement the diverse chocolate tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery brand hero shot, wide banner format, commercial product photography style, high-key lighting, 8k photorealistic quality",
+    "negative": "single chocolate type, cluttered overlapping products, no negative space, dark shadows, dramatic lighting, gradient background, pure white sterile background, packaging visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "luxury_brand_hero"
+  },
+
+  "use_case": {
+    "primary": "homepage_hero",
+    "format": "wide_banner",
+    "context": "brand_landing_page"
+  }
+}

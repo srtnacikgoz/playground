@@ -1,0 +1,100 @@
+{
+  "name": "Break Moment",
+  "version": "5.0",
+  "category": "TABLET",
+  "subcategory": "HOVER",
+  "status": "testing",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "breaking_action_shot",
+    "description": "Chocolate bar breaking in half mid-air with fragments suspended - dynamic action shot",
+    "keywords": ["break", "snap", "action", "dynamic", "fragments", "suspended", "hover", "appetizing"]
+  },
+
+  "composition": {
+    "framing": "action_shot",
+    "subject": "breaking_bar_with_fragments",
+    "orientation": "diagonal_dynamic",
+    "motion": "frozen_break_moment",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["two_main_pieces", "small_fragments", "shards", "texture"],
+    "elements_hidden": ["packaging", "wrapper", "intact_bar"]
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "front_slightly_elevated",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "action_capture",
+      "sharp_area": "main_pieces_and_fragments",
+      "blur_areas": ["background"]
+    },
+    "style": "high_speed_capture_aesthetic"
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused",
+    "direction": "above",
+    "highlights": "on_broken_edges",
+    "shadows": "soft",
+    "purpose": "highlight_break_texture"
+  },
+
+  "surface": {
+    "finish": "tempered",
+    "characteristics": ["break_texture_visible", "inner_consistency_shown"],
+    "break_quality": "clean_snap"
+  },
+
+  "mood": {
+    "aesthetic": "dynamic_appetizing",
+    "feel": "action_frozen",
+    "style": "food_action_photography",
+    "approach": "high_speed_capture"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "museum_like",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "ai_learns_from_reference": [
+      "pattern_type",
+      "color",
+      "texture_details",
+      "bar_shape"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional product photography capturing the exact moment of a premium THIN FLAT TABLET chocolate bar (85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions) breaking in half mid-air, maintaining slim elegant FLAT tablet proportions from reference image, two main pieces separating with their BREAK SURFACES FACING EACH OTHER (left piece shows break surface on its RIGHT side, right piece shows break surface on its LEFT side, break surfaces mirror each other), small fragments and chocolate shards suspended in space between them, frozen motion effect showing clean snap break with SOLID HOMOGENEOUS chocolate interior throughout - same color and density from surface to core, no layers or fillings. Dynamic diagonal composition with pieces at complementary angles. Soft diffused lighting from above highlighting the broken edges and surface texture. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Appetizing food photography, high-speed capture aesthetic, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color, texture pattern and FLAT TABLET proportions exactly",
+    "negative": "multiple break surfaces per piece, side break surfaces visible, wrong break orientation, break surface on wrong side, both pieces showing break on same side, break surfaces not facing each other, brownie thickness, cake thickness, 3D chunky block, thick edges, thick broken edges, exaggerated thickness, NOT a flat tablet, thick bar, chunky shape, cube-like, distorted proportions, square shape, short thick bar, porous interior, cake-like texture, biscuit inside, spongy texture, aerated chocolate, filled chocolate, layered interior, crumbly inside, different colored interior, wafer inside, cookie texture, packaging, wrapper, static composition, bar intact, no breaking, melting chocolate, messy appearance, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "food_action_photography"
+  },
+
+  "use_case": {
+    "primary": "hover_effect",
+    "pairs_with": "CLASSIC-PAIR",
+    "context": "e-commerce_product_page"
+  }
+}

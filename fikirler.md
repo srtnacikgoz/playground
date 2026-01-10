@@ -376,4 +376,48 @@ Ajans ve kurumsal müşteriler için:
 
 ---
 
-**Son Güncelleme:** 2026-01-08
+### 22. **Chocolate Intelligence Skill**
+
+Çikolatalar hakkında detaylı teknik bilgi sağlayan skill:
+
+**Amaç:**
+- Callebaut.com sitesini araştırarak çikolata bilgilerini toplamak
+- Teknik özellikler, kullanım alanları, temperasyon bilgileri
+- Bilgilerin profesyonel sunumunu öğrenmek (tone, format, terminoloji)
+
+**Skill Özellikleri:**
+- Çikolata tipi sorguları (ruby, dark, milk, white, gold)
+- Kakao yüzdesi bilgileri
+- Sıcaklık eğrileri (tempering curves)
+- Kullanım önerileri (pastry, tablets, bonbons)
+- Flavor profili (fruity, intense, balanced)
+- Viskozite değerleri
+- Eşleştirme önerileri (ingredients pairing)
+
+**Araştırma Kapsamı:**
+1. Callebaut.com sitesi yapısı analizi
+2. Ürün sayfalarının formatı
+3. Teknik terminoloji (fluidity, crystallization, snap)
+4. Bilgi sunumu yaklaşımı (professional, technical, accessible)
+
+**Kullanım Senaryoları:**
+- "Ruby çikolata hakkında bilgi ver"
+- "70% dark chocolate tempering sıcaklığı nedir?"
+- "Gold chocolate ile ne yapılır?"
+- "Callebaut'un 823 kodu hangi çikolata?"
+
+**Teknik Detaylar:**
+- Web scraping / WebFetch kullanımı
+- Structured data extraction
+- Knowledge base oluşturma
+- Prompt template'leri ile bilgi sunumu
+
+**Faydalar:**
+- Prompt yazarken doğru terminoloji
+- Gerçekçi ürün özellikleri
+- Profesyonel tone ve yaklaşım
+- Teknik doğruluk
+
+---
+
+**Son Güncelleme:** 2026-01-10

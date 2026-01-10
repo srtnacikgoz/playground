@@ -1,0 +1,94 @@
+{
+  "name": "Parallel Sequence",
+  "version": "1.0",
+  "category": "TABLET",
+  "status": "testing",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "repetition_array_horizontal",
+    "description": "Multiple identical chocolate bars in horizontal row - visual rhythm through repetition",
+    "keywords": ["repetition", "array", "horizontal", "rhythm", "identical", "sequence", "minimalist"]
+  },
+
+  "composition": {
+    "framing": "full_product_row",
+    "subject": "five_identical_bars",
+    "orientation": "horizontal_row",
+    "arrangement": "evenly_spaced_parallel",
+    "angle": "subtle_matching_angle_each_bar",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["bare_chocolate_bars", "surface_texture"],
+    "elements_hidden": ["packaging", "wrapper", "branding", "label", "foil"]
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "slightly_elevated_front",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "full_product",
+      "sharp_area": "all_bars",
+      "blur_areas": ["background"]
+    }
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused_omnidirectional",
+    "direction": "above_front",
+    "highlights": "subtle_specular",
+    "shadows": "gentle_unified",
+    "purpose": "clean_commercial_presentation"
+  },
+
+  "surface": {
+    "finish": "tempered_glossy",
+    "state": "unwrapped_bare",
+    "characteristics": ["texture_visible", "no_packaging"]
+  },
+
+  "mood": {
+    "aesthetic": "minimalist_commercial",
+    "feel": "premium_clean",
+    "style": "commercial_product_photography",
+    "approach": "symmetrical_rhythmic"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "museum_like",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "ai_learns_from_reference": [
+      "pattern_type",
+      "color",
+      "texture_details",
+      "surface_characteristics",
+      "bar_shape"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional product photography of FIVE identical unwrapped bare chocolate bars without packaging arranged in a horizontal row, evenly spaced, each bar positioned at a subtle matching angle creating visual rhythm and repetition. Soft diffused omnidirectional lighting from above-front casting gentle unified shadows beneath each bar. Clean minimalist composition, symmetrical arrangement with consistent spacing between products. Commercial product photography style, high-key lighting, muted warm tones. Shot from slightly elevated front angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Ultra-clean aesthetic, premium confectionery presentation, 8k photorealistic quality with professional studio lighting setup, matching the reference image's color and texture pattern exactly",
+    "negative": "packaging, wrapper, foil wrapper, branded packaging, sealed package, box, cellophane, plastic wrap, uneven spacing, different angles on each bar, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "commercial_product_photography"
+  }
+}

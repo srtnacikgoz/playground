@@ -1,0 +1,99 @@
+{
+  "name": "Unwrapped Hero",
+  "version": "1.0",
+  "category": "TABLET",
+  "subcategory": "HOVER",
+  "status": "production_ready",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "single_floating_hero",
+    "description": "Single unwrapped bar in subtle levitation with elegant angle - clean floating hero shot",
+    "keywords": ["single", "floating", "levitation", "hero", "minimal", "unwrapped", "hover", "elegant"]
+  },
+
+  "composition": {
+    "framing": "single_product_hero",
+    "subject": "one_unwrapped_bar_floating",
+    "orientation": "tilted_30_degrees",
+    "levitation": "subtle_lift_above_surface",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["bare_chocolate_bar", "surface_texture", "soft_shadow_beneath"],
+    "elements_hidden": ["packaging", "wrapper", "multiple_bars"]
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "slightly_elevated_front",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "full_product",
+      "sharp_area": "entire_bar",
+      "blur_areas": ["background"]
+    }
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused_omnidirectional",
+    "direction": "above_front",
+    "highlights": "subtle_on_texture",
+    "shadows": "soft_beneath_suggesting_float",
+    "purpose": "clean_floating_presentation"
+  },
+
+  "surface": {
+    "finish": "tempered_glossy",
+    "state": "unwrapped_bare",
+    "characteristics": ["texture_prominent", "pattern_visible"]
+  },
+
+  "mood": {
+    "aesthetic": "minimal_floating",
+    "feel": "weightless_elegant",
+    "style": "commercial_hero_shot",
+    "approach": "clean_levitation"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "museum_like",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "ai_learns_from_reference": [
+      "pattern_type",
+      "color",
+      "texture_details",
+      "bar_shape"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional product photography of a SINGLE unwrapped bare chocolate bar floating in subtle levitation just above surface, tilted at elegant 30-degree angle showing textured pattern surface prominently. Minimal lift creating soft shadow beneath suggesting weightlessness. Clean minimalist composition with single product as hero. Soft diffused omnidirectional lighting emphasizing surface texture and tempered finish. Shot from slightly elevated front angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color and texture pattern exactly",
+    "negative": "packaging, wrapper, multiple bars, flat on surface, no levitation, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "commercial_hero_shot"
+  },
+
+  "use_case": {
+    "primary": "hover_effect",
+    "pairs_with": "CLASSIC-PAIR",
+    "context": "e-commerce_product_page"
+  }
+}

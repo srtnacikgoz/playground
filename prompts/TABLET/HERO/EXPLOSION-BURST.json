@@ -1,0 +1,94 @@
+{
+  "name": "Explosion Burst",
+  "version": "1.0",
+  "category": "TABLET",
+  "subcategory": "HERO",
+  "status": "testing",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "radial_explosion_burst",
+    "description": "Chocolate bars bursting outward from center in starburst - bold energetic hero",
+    "keywords": ["explosion", "burst", "radial", "starburst", "energetic", "bold", "hero", "banner"]
+  },
+
+  "composition": {
+    "framing": "wide_horizontal_banner",
+    "subject": "multiple_chocolate_varieties",
+    "arrangement": "radial_explosion_from_center",
+    "pattern": "starburst_effect",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["dark_chocolate", "milk_chocolate", "ruby_chocolate", "white_chocolate", "fragments", "shards"],
+    "elements_hidden": ["packaging"]
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "front_straight",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "all_products",
+      "sharp_area": "all_bars_and_fragments",
+      "blur_areas": ["background"]
+    }
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused",
+    "direction": "above_emphasizing_radial",
+    "highlights": "on_radiating_elements",
+    "shadows": "gentle",
+    "purpose": "emphasize_energy"
+  },
+
+  "mood": {
+    "aesthetic": "bold_energetic",
+    "feel": "explosive_energy",
+    "style": "luxury_brand_hero",
+    "approach": "radial_composition"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_diverse_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "open",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "type": "single_or_collage",
+    "ai_learns_from_reference": [
+      "chocolate_varieties",
+      "colors",
+      "textures",
+      "patterns"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional luxury product photography hero composition featuring MULTIPLE different chocolate bar varieties bursting outward from center of wide horizontal frame in dynamic radial explosion pattern, each bar angled away from center creating energetic starburst effect. Various chocolate types (dark, milk, ruby, white) radiating outward at different distances and angles. Numerous small chocolate pieces, fragments and shards scattered throughout suggesting frozen moment of explosive energy. Soft diffused lighting emphasizing the dynamic radial composition. soft off-white background (adjusted to complement the diverse chocolate tones), subtle texture at 3% opacity adding organic character. Bold energetic premium confectionery brand hero shot, wide banner format, commercial product photography style, high-key lighting, 8k photorealistic quality",
+    "negative": "calm static arrangement, linear arrangement, single chocolate type, cluttered center, dark shadows, dramatic lighting, gradient background, pure white sterile background, packaging visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "luxury_brand_hero"
+  },
+
+  "use_case": {
+    "primary": "homepage_hero",
+    "format": "wide_banner",
+    "context": "brand_landing_page"
+  }
+}

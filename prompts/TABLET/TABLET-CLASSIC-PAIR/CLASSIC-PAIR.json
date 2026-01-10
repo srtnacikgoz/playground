@@ -1,0 +1,97 @@
+{
+  "name": "Classic Pair",
+  "version": "1.0",
+  "category": "TABLET",
+  "status": "testing",
+  "created": "2026-01-10",
+  "updated": "2026-01-10",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini"
+  },
+
+  "concept": {
+    "type": "product_packaging_duo",
+    "description": "Basic presentation - unwrapped bar + packaged product side by side with scattered pieces",
+    "keywords": ["classic", "basic", "duo", "pair", "unwrapped", "packaged", "scattered", "flat-lay"]
+  },
+
+  "composition": {
+    "framing": "two_products_flat_lay",
+    "subject": "unwrapped_bar_and_packaged_product",
+    "orientation": "complementary_angles",
+    "arrangement": {
+      "left": "unwrapped_bare_bar_texture_visible",
+      "right": "branded_packaging"
+    },
+    "scattered_elements": "small_chocolate_pieces_around",
+    "background": "soft_off_white_textured",
+    "elements_visible": ["bare_chocolate_bar", "surface_texture", "packaging", "label", "scattered_pieces"],
+    "elements_hidden": []
+  },
+
+  "camera": {
+    "lens": "standard",
+    "angle": "bird_eye_or_slightly_elevated",
+    "depth_of_field": "moderate",
+    "focus": {
+      "type": "full_product",
+      "sharp_area": "both_products",
+      "blur_areas": ["background"]
+    }
+  },
+
+  "lighting": {
+    "style": "high_key",
+    "type": "soft_diffused",
+    "direction": "above",
+    "highlights": "subtle",
+    "shadows": "gentle",
+    "purpose": "clean_editorial_presentation"
+  },
+
+  "surface": {
+    "finish": "tempered",
+    "characteristics": ["texture_visible_on_unwrapped", "packaging_design_visible"]
+  },
+
+  "mood": {
+    "aesthetic": "classic_editorial",
+    "feel": "premium_clean",
+    "style": "commercial_product_photography",
+    "approach": "asymmetrical_balance"
+  },
+
+  "background": {
+    "color": "soft_off_white",
+    "adjustment": "complement_chocolate_tones",
+    "texture": "subtle_3_percent_opacity",
+    "character": "organic",
+    "spacing": "museum_like",
+    "feel": "editorial_luxury"
+  },
+
+  "reference_image": {
+    "required": true,
+    "ai_learns_from_reference": [
+      "pattern_type",
+      "color",
+      "texture_details",
+      "packaging_design",
+      "label_text",
+      "bar_shape"
+    ]
+  },
+
+  "prompt": {
+    "main": "Professional product photography flat lay composition featuring TWO chocolate products side by side on surface: LEFT an unwrapped bare chocolate bar showing textured pattern surface tilted at slight angle, RIGHT the same product in branded packaging tilted at complementary angle creating visual dialogue between products. Small chocolate pieces scattered artfully around both products at varying distances adding dynamic energy. Soft diffused lighting from above casting gentle shadows beneath products. Clean minimalist composition with intentional asymmetrical balance. Shot from directly above (bird's eye view) or slightly elevated angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color, texture pattern and packaging design exactly",
+    "negative": "centered symmetrical composition, products far apart, no scattered pieces, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference, packaging mismatch with reference"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic",
+    "category": "commercial_product_photography"
+  }
+}

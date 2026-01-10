@@ -326,6 +326,105 @@ prompts/
 
 ---
 
+## 2026-01-10
+
+### Yapılan İşler
+
+#### Prompt Kütüphanesi Genişletildi
+
+**1. BREAK-MOMENT Prompt - İteratif İyileştirme (V2→V5)**
+- **V2:** İç doku sorunu (gözenekli/kek gibi) çözüldü
+  - `SOLID HOMOGENEOUS chocolate interior throughout` eklendi
+  - `same color and density from surface to core`
+- **V3:** Kalınlık sorunu devam etti
+- **V4:** Gerçek ölçüler eklendi
+  - `(85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions)`
+  - Negative'e: `brownie thickness, cake thickness, 3D chunky block`
+- **V5:** Kırık yüzey orientasyonu düzeltildi ✅
+  - `BREAK SURFACES FACING EACH OTHER (left piece RIGHT side, right piece LEFT side)`
+  - Negative'e: `multiple break surfaces, wrong break orientation`
+- **Çözülen Sorunlar:** İç doku ✅, Kalınlık ✅, Kırık yüzey yönelimi ✅
+
+**2. Yeni Prompt'lar Eklendi**
+
+**TABLET Kategorisi (7 prompt):**
+- `PARALLEL-SEQUENCE` - 5 identik bar yatay sıra
+- `CLASSIC-PAIR` - Unwrapped + packaged duo (basic sunum)
+- `SINGLE-STANDING` - Tek bar dik pozisyon (hover)
+- `UNWRAPPED-HERO` - Tek bar floating (hover)
+- `BREAK-MOMENT` - Kırılma anı action shot (hover) [V5]
+- `DUAL-ANGLE-LEVITATION-HIGHKEY` - İki bar proximity (mevcut)
+- `SCULPTURAL-MACRO` - Extreme macro texture (mevcut)
+
+**HERO Kategorisi (5 prompt - universal kullanım):**
+- `FLOATING-CONSTELLATION` - Dreamy, yıldız kümesi düzeni
+- `DIAGONAL-CASCADE` - Diagonal akış, waterfall effect
+- `EXPLOSION-BURST` - Radial patlama, bold energetic
+- `ORBITAL-DANCE` - Eliptik yörünge, elegant harmonious
+- `LAYERED-DEPTH` - Derinlik katmanları, cinematic bokeh
+
+**3. Klasör Yapısı Optimizasyonu**
+- Tüm klasörlerden `-V1` son eki kaldırıldı
+- `TABLET-HERO-V1` → `HERO` (tüm ürün kategorileri için universal)
+- Daha temiz, scalable yapı
+
+**4. Dosya Formatı**
+- Her prompt için `.md` (manuel kullanım) + `.json` (programatik)
+- Toplam: 24 dosya (12 prompt x 2 format)
+
+#### Chocolate Intelligence Skill Fikri
+
+- **fikirler.md'ye eklendi** (#22)
+- Callebaut.com araştırması ile çikolata bilgi sistemi
+- Teknik terminoloji, tempering sıcaklıkları, viskozite değerleri
+- WebFetch/scraping ile knowledge base
+- Prompt yazarken doğru profesyonel dil kullanımı için
+
+#### Klasör Yapısı (Final)
+
+```
+prompts/TABLET/
+├── HERO/                               (5 konsept)
+├── TABLET-BREAK-MOMENT/                (V5 - hover)
+├── TABLET-CLASSIC-PAIR/                (basic duo)
+├── TABLET-DUAL-ANGLE-LEVITATION-HIGHKEY/  (proximity)
+├── TABLET-PARALLEL-SEQUENCE/           (5 bar row)
+├── TABLET-SCULPTURAL-MACRO/            (macro texture)
+├── TABLET-SINGLE-STANDING/             (hover)
+└── TABLET-UNWRAPPED-HERO/              (hover)
+```
+
+### DALL-E 3 Quirk'ları Keşfedildi
+
+**BREAK-MOMENT için:**
+1. Breaking konseptinde kalınlığı abartıyor → Spesifik ölçüler gerekli
+2. Kırık yüzeyleri yanlış yönde oluşturuyor → Explicit orientation tanımı
+3. İç doku uydurma eğilimi → `SOLID HOMOGENEOUS` vurgusu kritik
+
+**Çözüm Yaklaşımı:**
+- İteratif testing + prompt refinement
+- Negative prompt agresif kullanımı
+- Gerçek ölçü spesifikasyonları
+
+### İstatistikler
+
+- **Toplam Prompt Sayısı:** 12 (7 TABLET + 5 HERO)
+- **Dosya Sayısı:** 24 (.md + .json)
+- **BREAK-MOMENT İterasyon:** 5 versiyon
+- **Yeni Satır:** ~3,500+ (prompt + dokümantasyon)
+
+---
+
+## Yapılacaklar (Sonraki Oturum)
+
+- [ ] BREAK-MOMENT V5 testi (kırık yüzey orientasyonu doğrulandı mı?)
+- [ ] HERO prompt'larını test et (5 konsept)
+- [ ] Chocolate Intelligence Skill implementasyonu
+- [ ] Yeni ürün kategorileri için prompt'lar (BONBON, BARS, vb.)
+- [ ] Web arayüzü için JSON API endpoint tasarımı
+
+---
+
 ## Notlar
 
 - **Gemini Nano Banana Pro** skill'e eklendi çünkü:
