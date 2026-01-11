@@ -417,11 +417,110 @@ prompts/TABLET/
 
 ## Yapılacaklar (Sonraki Oturum)
 
+- [ ] CLASSIC-PAIR V1.1 testi (deformasyon çözüldü mü?)
 - [ ] BREAK-MOMENT V5 testi (kırık yüzey orientasyonu doğrulandı mı?)
 - [ ] HERO prompt'larını test et (5 konsept)
 - [ ] Chocolate Intelligence Skill implementasyonu
 - [ ] Yeni ürün kategorileri için prompt'lar (BONBON, BARS, vb.)
 - [ ] Web arayüzü için JSON API endpoint tasarımı
+
+---
+
+## 2026-01-11
+
+### Yapılan İşler
+
+#### BONBON Prompt Kütüphanesi Optimizasyonu
+
+**Tüm BONBON promptları kısaltıldı (15 → 15, hepsi V1.1)**
+
+- 11 uzun prompt kısaltıldı (~80 satır → ~37 satır her biri)
+- 4 prompt zaten kısa idi (HERO-MACRO, CUT-REVEAL, TRIO-ELEGANCE, DUST-EXPLOSION)
+- Her prompt ~400-530 karakter (önceki ~1500-2000 karakter)
+
+**Yeni Standart Format:**
+- Tek paragraf MAIN PROMPT
+- Konsept bölümü (anahtar özellikler)
+- Renk kuralı notu (gerekli olanlarda)
+- USAGE ve versiyon bilgisi
+
+**CLAUDE.md Güncellendi:**
+- 🎨 Proje Standartları bölümü eklendi
+- Standart Arka Plan tanımı: `soft off-white (RGB 250,248,245) with 3% subtle texture`
+- Renk Uyumu Kuralı: Tüm elementler ürün tonlarına uyumlu (istisnalar: el, meyve, ham malzeme)
+- 💬 İletişim Kuralları bölümü eklendi
+
+**Kısaltılan Promptlar:**
+1. REFLECTION-MIRROR (89→38 satır)
+2. SHADOW-PLAY (88→37 satır)
+3. HAND-PRESENTATION (87→38 satır) → V1.2 boyut eklendi
+4. INGREDIENT-STORY (81→38 satır)
+5. STACK-SCULPTURE (90→36 satır)
+6. FLOATING-CONSTELLATION (78→36 satır)
+7. COLOR-GRADIENT (71→36 satır)
+8. RAIN-CASCADE (80→37 satır)
+9. GIFT-BOX-PEEK (80→38 satır)
+10. SCATTERED-ORGANIC (73→36 satır)
+11. GRID-COLLECTION (71→36 satır) → 12→10 bonbon olarak güncellendi
+
+---
+
+#### Yeni BONBON Promptları
+
+**0-BONBON-STANDART (YENİ)**
+- Temel iştah açıcı hero shot
+- 35° kamera açısı (food photography sweet spot)
+- Maksimum netlik ve çekicilik
+
+**0-BONBON-FILLING-BEAUTY (YENİ)**
+- İç dolguyu çekici gösteren kesit
+- Kremalı, lüks dolgu vurgusu
+- CUT-REVEAL'dan farkı: duygusal/iştah açıcı odaklı
+
+---
+
+#### PACKAGING Kategorisi Oluşturuldu
+
+**BOX-VALENTINE-HEART**
+- 21x21x4 cm kare kutu
+- Akan şerit illüstrasyonu ile kalp (Pierre Marcolini stili)
+- %70 kapakta görünür, %30 kat yerinden aşağı devam
+- "Sade Chocolate" sol-orta-üst
+- Çok sayıda iterasyon yapıldı (literal→sanatsal)
+
+**INSERT-INFO-CARD**
+- 12x7 cm yatay bilgilendirme kartı
+- İki taraflı tasarım
+- Ön yüz: Saklama bilgisi + "Afiyet Olsun" + SadeChocolate Antalya
+- Arka yüz: "ARTİZAN ÇİKOLATA" + QR kod + @sade.chocolate
+- Valentine kutusuyla uyumlu bordo/pembe şerit aksanları
+
+---
+
+#### DALL-E 3 Quirk Keşfi: Tilted Angle Deformasyon
+
+**Test Edilen:** CLASSIC-PAIR prompt (Gold çikolata)
+
+**Keşfedilen Sorunlar:**
+1. Çikolata pattern deformasyonu (küp deseni yamuk)
+2. Ambalaj kenarları eğri/bükülmüş
+3. Scattered parçalar deforme
+
+**Kök Neden:** "tilted at slight angle" ifadesi
+
+**Çözüm (V1.1):**
+- ❌ "tilted at angle" → Deformasyon yaratıyor
+- ✅ "LYING COMPLETELY FLAT" + "NO TILT" → Düz, temiz kenarlar
+- ✅ "PERFECT RECTANGULAR SHAPE" → Pattern bozulması önlenir
+- ✅ "CRISP STRAIGHT EDGES" → Ambalaj düz durur
+- ✅ Negative prompt'a deformasyon terimleri eklendi
+
+**Güncellenen Dosyalar:**
+- CLASSIC-PAIR.md (V1.0 → V1.1)
+- CLASSIC-PAIR.json (V1.0 → V1.1)
+- FEEDBACK.md ([IMP-006] eklendi)
+
+**Öğrenilen Ders:** DALL-E 3'te flat-lay composition'larda "tilt/angle" kullanmak yerine "completely flat, no tilt" tercih edilmeli.
 
 ---
 

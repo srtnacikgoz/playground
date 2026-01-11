@@ -1,10 +1,10 @@
 {
   "name": "Classic Pair",
-  "version": "1.0",
+  "version": "1.1",
   "category": "TABLET",
   "status": "testing",
   "created": "2026-01-10",
-  "updated": "2026-01-10",
+  "updated": "2026-01-11",
 
   "platform": {
     "primary": "DALL-E 3",
@@ -20,12 +20,12 @@
   "composition": {
     "framing": "two_products_flat_lay",
     "subject": "unwrapped_bar_and_packaged_product",
-    "orientation": "complementary_angles",
+    "orientation": "completely_flat_no_tilt",
     "arrangement": {
-      "left": "unwrapped_bare_bar_texture_visible",
-      "right": "branded_packaging"
+      "left": "unwrapped_bare_bar_lying_flat",
+      "right": "branded_packaging_lying_flat"
     },
-    "scattered_elements": "small_chocolate_pieces_around",
+    "scattered_elements": "small_chocolate_pieces_flat_sharp_edges",
     "background": "soft_off_white_textured",
     "elements_visible": ["bare_chocolate_bar", "surface_texture", "packaging", "label", "scattered_pieces"],
     "elements_hidden": []
@@ -85,8 +85,8 @@
   },
 
   "prompt": {
-    "main": "Professional product photography flat lay composition featuring TWO chocolate products side by side on surface: LEFT an unwrapped bare chocolate bar showing textured pattern surface tilted at slight angle, RIGHT the same product in branded packaging tilted at complementary angle creating visual dialogue between products. Small chocolate pieces scattered artfully around both products at varying distances adding dynamic energy. Soft diffused lighting from above casting gentle shadows beneath products. Clean minimalist composition with intentional asymmetrical balance. Shot from directly above (bird's eye view) or slightly elevated angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color, texture pattern and packaging design exactly",
-    "negative": "centered symmetrical composition, products far apart, no scattered pieces, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference, packaging mismatch with reference"
+    "main": "Professional product photography flat lay composition featuring TWO chocolate products side by side on surface: LEFT an unwrapped bare chocolate bar (standard tablet: 15cm x 8cm x 1cm, 85g) showing textured pattern surface LYING COMPLETELY FLAT on surface with NO TILT and PERFECT RECTANGULAR SHAPE, RIGHT the same product in branded packaging LYING COMPLETELY FLAT parallel to bar with CRISP STRAIGHT EDGES and NO WARPING. Small chocolate pieces scattered artfully around both products - each piece must be FLAT with SHARP CLEAN EDGES, no bending or curving. Soft diffused lighting from above casting gentle shadows beneath products. Clean minimalist composition with intentional asymmetrical balance. Shot from directly above (bird's eye view). soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality. CRITICAL: Chocolate bar must have UNIFORM PATTERN with consistent depth across entire surface - no warping, no bending, no curved edges. Packaging must have PERFECTLY STRAIGHT edges like a real printed package. Match reference image's color, texture pattern and packaging design exactly.",
+    "negative": "tilted products, angled products, bent chocolate, warped packaging, curved edges, deformed pattern, distorted surface, wavy edges, bent corners, warped texture, uneven pattern depth, melted appearance, soft edges, curved packaging, bent bar, twisted shape, centered symmetrical composition, products far apart, no scattered pieces, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference, packaging mismatch with reference"
   },
 
   "quality": {
