@@ -12,7 +12,7 @@ Tüm tablet çikolata ürünleri için universal macro texture prompt. Referans 
 ## 📝 DALL-E 3 PROMPT
 
 ```
-Extreme macro photography of a premium chocolate surface captured in an abstract, sculptural close-up. The frame is filled entirely with the chocolate's textured surface pattern matching the reference image exactly, creating a continuous rhythmic visual flow. The surface appears meticulously crafted with elegant curvature and seamless transitions, evoking a sense of frozen motion and artisan craftsmanship.
+Extreme macro photography of a premium chocolate tablet bar surface (85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions) captured in an abstract, sculptural close-up. The frame is filled entirely with the chocolate's textured surface pattern matching the reference image exactly, creating a continuous rhythmic visual flow. The surface appears meticulously crafted with elegant curvature and seamless transitions, evoking a sense of frozen motion and artisan craftsmanship.
 
 The chocolate has a refined satin-finish tempered surface that subtly reflects light along the highest points of the texture, while the recessed areas remain softly shadowed. Micro-reflections and fine surface details are visible, suggesting precise tempering and sophisticated elegance.
 
@@ -30,7 +30,7 @@ Ultra-high resolution macro lens detail, fine art food photography quality, scul
 ## 🚫 NEGATIVE PROMPT
 
 ```
-packaging visible, branding visible, text visible, label visible, full product shot, wide angle, deep depth of field, everything in focus, flat lighting, front lighting, harsh shadows, overexposed highlights, plastic appearance, waxy surface, 3d render, cartoon style, low resolution, blurry, noise, grain, watermark, human hands, props, background elements, busy composition, centered composition, generic AI aesthetic, wrong pattern, pattern mismatch with reference, color mismatch with reference
+brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thickness, NOT a flat tablet, thick bar, chunky shape, packaging visible, branding visible, text visible, label visible, full product shot, wide angle, deep depth of field, everything in focus, flat lighting, front lighting, harsh shadows, overexposed highlights, plastic appearance, waxy surface, 3d render, cartoon style, low resolution, blurry, noise, grain, watermark, human hands, props, background elements, busy composition, centered composition, generic AI aesthetic, wrong pattern, pattern mismatch with reference, color mismatch with reference
 ```
 
 ---

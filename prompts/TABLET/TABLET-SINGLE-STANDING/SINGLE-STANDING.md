@@ -12,7 +12,7 @@ Tek çikolata bar dik pozisyonda, dinamik açıyla - minimal hero shot. Hover ef
 ## DALL-E 3 PROMPT
 
 ```
-Professional product photography of a SINGLE unwrapped bare chocolate bar standing vertically in elegant upright position, slightly tilted at dynamic angle creating sense of movement and premium presence. Soft diffused omnidirectional lighting casting gentle shadow beneath bar. Ultra-clean minimalist composition with generous negative space. Shot from slightly low angle emphasizing height and stature. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery hero shot, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color and texture pattern exactly
+Professional product photography of a SINGLE unwrapped bare chocolate bar (85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions) standing vertically in elegant upright position, slightly tilted at dynamic angle creating sense of movement and premium presence. Soft diffused omnidirectional lighting casting gentle shadow beneath bar. Ultra-clean minimalist composition with generous negative space. Shot from slightly low angle emphasizing height and stature. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery hero shot, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color and texture pattern exactly
 ```
 
 ---
@@ -20,7 +20,7 @@ Professional product photography of a SINGLE unwrapped bare chocolate bar standi
 ## NEGATIVE PROMPT
 
 ```
-packaging, wrapper, multiple bars, laying flat, horizontal position, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference
+brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thickness, NOT a flat tablet, thick bar, chunky shape, packaging, wrapper, multiple bars, laying flat, horizontal position, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference
 ```
 
 ---

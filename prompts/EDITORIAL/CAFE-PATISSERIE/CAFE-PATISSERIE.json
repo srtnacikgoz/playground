@@ -1,0 +1,161 @@
+{
+  "name": "Editorial Café & Patisserie",
+  "version": "1.0",
+  "category": "EDITORIAL",
+  "subcategory": "LIFESTYLE",
+  "status": "ready_for_testing",
+  "created": "2026-01-12",
+  "updated": "2026-01-12",
+
+  "platform": {
+    "primary": "DALL-E 3",
+    "backup": "Gemini",
+    "alternative": "Midjourney"
+  },
+
+  "concept": {
+    "type": "editorial_lifestyle_photography",
+    "description": "Artisan café and patisserie photography with warm European minimalism, authentic moments, and editorial magazine aesthetic",
+    "keywords": ["editorial", "café", "patisserie", "artisan", "minimal", "warm", "authentic", "slow-living", "lifestyle", "bakery"]
+  },
+
+  "composition": {
+    "framing": ["flat_lay", "45_degree_angle", "eye_level_moments"],
+    "subject_placement": ["centered", "rule_of_thirds_offset"],
+    "negative_space": "intentionally_preserved",
+    "interaction": ["natural_hands", "holding_pastry", "slicing_cake", "pouring_coffee"],
+    "surfaces": ["marble", "light_wood", "ceramic", "linen"],
+    "elements_visible": ["handcrafted_pastries", "artisan_textures", "neutral_props", "natural_materials"],
+    "elements_hidden": ["plastic", "excessive_branding", "artificial_gloss", "staged_perfection"]
+  },
+
+  "camera": {
+    "lens": "50mm_perspective",
+    "angle": ["flat_lay", "45_degree_tabletop", "eye_level_intimate"],
+    "depth_of_field": "shallow_where_appropriate",
+    "focus": {
+      "type": "selective",
+      "sharp_area": "main_subject",
+      "blur_areas": ["background", "foreground_elements"]
+    },
+    "style": "film_like_aesthetic"
+  },
+
+  "lighting": {
+    "style": "soft_natural_daylight",
+    "type": "diffused_window_light",
+    "direction": "large_window_source",
+    "temperature": "warm_late_morning_early_afternoon",
+    "contrast": "low",
+    "shadows": "gentle",
+    "highlights": "soft_no_harsh",
+    "purpose": "even_flattering_natural_bright"
+  },
+
+  "products": {
+    "types": ["pastries", "tarts", "breads", "croissants", "cakes"],
+    "quality": "handcrafted_artisan",
+    "textures": "imperfect_artisanal_visible",
+    "presentation": "authentic_no_excessive_styling",
+    "characteristics": ["natural_folds", "organic_shapes", "rustic_edges"]
+  },
+
+  "color_palette": {
+    "primary": ["cream", "beige", "soft_brown", "muted_caramel"],
+    "accents": ["sage_green", "terracotta", "dusty_rose"],
+    "tone": "warm_neutrals_desaturated",
+    "saturation": "low_cohesive",
+    "relationships": "harmonious_no_jarring_contrasts"
+  },
+
+  "typography": {
+    "space_reserved": true,
+    "style": ["elegant_serif", "modern_classic"],
+    "size": "small_refined",
+    "color": ["off_white", "muted_dark_brown"],
+    "layout": "editorial_magazine_plenty_whitespace",
+    "placement": "never_centered_heavy"
+  },
+
+  "mood": {
+    "aesthetic": "calm_cozy_slow_living",
+    "feel": "authentic_intimate_timeless",
+    "culture": "modern_european_café",
+    "style": "instagram_editorial_premium_lifestyle",
+    "approach": "inviting_yet_refined_approachable_luxury"
+  },
+
+  "background": {
+    "surfaces": ["marble", "light_wood", "linen", "ceramic"],
+    "treatment": "clean_but_lived_in",
+    "character": "warm_minimalism",
+    "spacing": "breathing_room_for_composition",
+    "feel": "editorial_understated"
+  },
+
+  "technical": {
+    "resolution": "8k_ultra_high",
+    "grain": "subtle_film_like",
+    "color_grading": "natural_no_hdr",
+    "quality": "professional_food_photography_standards",
+    "aesthetic": "analog_film_kodak_portra_tones"
+  },
+
+  "style_variations": {
+    "pure_minimal": {
+      "negative_space": "maximum",
+      "focus": "single_product",
+      "palette": "monochrome_neutral",
+      "lighting": "very_soft"
+    },
+    "lifestyle_moments": {
+      "interaction": "human_priority",
+      "storytelling": "narrative_focused",
+      "tones": "warmer",
+      "moments": "natural_candid"
+    },
+    "rustic_warmth": {
+      "surfaces": "wood_dominant",
+      "accent": "terracotta",
+      "texture": "more_pronounced",
+      "feel": "homemade"
+    },
+    "french_elegance": {
+      "props": "white_porcelain",
+      "fabrics": "linen_napkins",
+      "presentation": "refined",
+      "minimalism": "elegant"
+    }
+  },
+
+  "reference_image": {
+    "required": false,
+    "optional": true,
+    "ai_learns_from_reference": [
+      "product_type",
+      "texture_details",
+      "color_harmony",
+      "composition_angle",
+      "props_selection"
+    ]
+  },
+
+  "prompt": {
+    "main": "Editorial-style artisan café and patisserie photography. Minimal, warm, European bakery aesthetic with a refined natural feel. SCENE & COMPOSITION: Flat lay or 45-degree angle tabletop composition, or intimate eye-level café moments. Subject centered or gently off-center following rule of thirds. Natural human interaction where appropriate: hands holding pastry, slicing cake, pouring coffee. Clean but lived-in surfaces: marble, light wood, ceramic plates, linen napkins. Negative space intentionally preserved for visual breathing and potential typography placement. PRODUCTS & DETAILS: Handcrafted pastries, tarts, breads, croissants, cakes showcasing artisanal quality. Imperfect, artisanal textures clearly visible - natural folds, organic shapes, rustic edges. No excessive styling, no artificial gloss, no plastic props. Neutral ceramic and natural material props only. Authentic bakery presentation. LIGHTING: Soft natural daylight streaming from large window, slightly diffused creating low contrast and gentle shadows. Warm color temperature evoking late morning or early afternoon feel. No harsh highlights, no studio flash, no dramatic lighting. Even, flattering, naturally bright illumination. COLOR PALETTE: Warm neutrals dominate: cream, beige, soft brown, muted caramel tones. Subtle earthy accents where appropriate: sage green, terracotta, dusty rose. Overall desaturated, cohesive tone throughout the frame. Harmonious color relationships, no jarring contrasts. TYPOGRAPHY SPACE (if text needed): Elegant serif or modern classic typeface area. Small, refined typography placement. Off-white or muted dark brown text zones. Editorial magazine layout feeling with plenty of whitespace, never centered-heavy. Breathing room for text overlay. MOOD & STYLE: Calm, cozy, slow-living atmosphere. Modern European café culture. Authentic, intimate, timeless feeling. Instagram editorial aesthetic, premium lifestyle branding. Inviting yet refined, approachable luxury. TECHNICAL SPECIFICATIONS: Ultra high resolution, 8k quality. Shallow depth of field where compositionally appropriate, keeping main subject sharp. Film-like softness with subtle grain texture. Natural color grading avoiding HDR look. Professional food photography standards with authentic presentation. Shot on 50mm lens perspective, natural bokeh, analog film aesthetic with Kodak Portra-like tones, soft grain, understated elegance, artisanal French bakery mood, modern luxury minimalism.",
+    "negative": "bright artificial colors, neon tones, oversaturated, over-styled food, glossy artificial finish, plastic appearance, stock photo look, generic commercial photography, hard shadows, dramatic lighting, harsh spotlight, studio flash, aggressive branding, bold typography, centered-heavy text, cluttered composition, busy background, gradient vignette, HDR processing, artificial color grading, digital render look, 3D CGI, cartoon style, props overload, modern plastic materials, stainless steel, chrome finishes, cold industrial aesthetic, fast food presentation, processed food appearance, perfect geometric arrangement, artificial symmetry, staged look, catalog photography style, lifeless composition, sterile environment, pure white background, clinical lighting, product shot isolation, watermark, low resolution, blurry, noise artifacts, compression artifacts, amateur photography"
+  },
+
+  "quality": {
+    "resolution": "8k",
+    "style": "photorealistic_film_like",
+    "category": "editorial_food_lifestyle_photography"
+  },
+
+  "use_case": {
+    "primary": ["instagram_editorial", "social_media_content", "menu_photography", "brand_storytelling"],
+    "secondary": ["website_hero", "print_magazine", "lifestyle_brand_content"],
+    "contexts": ["artisan_bakeries", "specialty_coffee_shops", "patisserie_boutiques", "farm_to_table_cafés", "european_style_bakeries", "premium_lifestyle_brands"]
+  },
+
+  "tags": ["editorial", "cafe", "patisserie", "minimal", "warm_tones", "artisan", "lifestyle", "european", "bakery", "slow_living", "authentic", "instagram", "premium", "natural_light", "film_aesthetic"]
+}

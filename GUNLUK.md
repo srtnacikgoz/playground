@@ -415,13 +415,259 @@ prompts/TABLET/
 
 ---
 
+### GitHub Entegrasyonu - Büyük Güncelleme (Akşam Oturumu)
+
+**Git Pull Sonuçları:**
+- **22 dosya değişti, 2,263 satır eklendi**
+- Remote repository'den büyük bir prompt koleksiyonu çekildi
+
+#### Yeni Eklenen Kategoriler
+
+**1. BONBON Kategorisi** 🍫 (15 prompt - YENİ)
+
+**Hero Prompts (6):**
+- `BONBON-CUT-REVEAL` - Kesik bonbon iç görünümü (74 satır)
+- `BONBON-DUST-EXPLOSION` - Toz patlaması efekti (90 satır)
+- `BONBON-HAND-PRESENTATION` - El ile sunum (86 satır)
+- `BONBON-HERO-MACRO` - Macro detay hero (59 satır)
+- `BONBON-REFLECTION-MIRROR` - Ayna yansıması (88 satır)
+- `BONBON-SHADOW-PLAY` - Gölge oyunu (87 satır)
+
+**Collection Prompts (4):**
+- `BONBON-GRID-COLLECTION` - 12'li grid düzeni (70 satır)
+- `BONBON-INGREDIENT-STORY` - Malzeme hikayesi (80 satır)
+- `BONBON-TRIO-ELEGANCE` - 3'lü zarif kompozisyon (68 satır)
+- `BONBON-STACK-SCULPTURE` - Dikey yığın heykel (89 satır)
+
+**Creative Prompts (5):**
+- `BONBON-FLOATING-CONSTELLATION` - Yüzen yıldız kümesi (77 satır)
+- `BONBON-COLOR-GRADIENT` - Renk gradyanı dizilimi (70 satır)
+- `BONBON-GIFT-BOX-PEEK` - Hediye kutusu içi (79 satır)
+- `BONBON-RAIN-CASCADE` - Yağmur şelalesi (79 satır)
+- `BONBON-SCATTERED-ORGANIC` - Organik dağılım (72 satır)
+
+**Dosyalar:**
+- 15 prompt dosyası (.md)
+- `BONBON/README.md` (197 satır - kategori rehberi)
+- **Toplam:** ~1,365 satır bonbon prompt koleksiyonu
+
+**2. HERO Kategorisi Genişletildi** 🎨
+
+- `SADE-HYBRID-HERO` (118 satır)
+  - Sade'ye özel hibrit hero shot konsepti
+  - Tablet + bonbon kombinasyonu
+  - Marka kimliğine uygun kompozisyon
+
+- `TURKISH-INFUSED-ARTISAN-CHOCOLATE` (40 satır - CONCEPT.md)
+  - Türk motifleri entegre edilmiş çikolata
+  - Kültürel storytelling yaklaşımı
+  - Artisan craftsmanship vurgusu
+
+**3. SEASONAL Kategorisi** ❤️ (YENİ)
+
+Valentine's Day Koleksiyonu (3 dosya):
+- `SADE-VALENTINE-FINAL.md` (208 satır)
+  - Final versiyon Valentine's konsepti
+  - Kutu + çikolata kompozisyonu
+  - Romantik atmosfer, kırmızı-pembe palet
+
+- `SADE-VALENTINE-V2-VARIATIONS.md` (349 satır)
+  - 6 farklı varyasyon
+  - Her varyasyon için ayrı prompt
+  - Çeşitli kompozisyon yaklaşımları
+
+- `VALENTINES-BOX-COLLECTION.md` (117 satır)
+  - Valentine's kutu koleksiyonu genel bakış
+  - Kutu tasarım konseptleri
+  - Packaging stratejileri
+
+**Toplam SEASONAL içerik:** ~674 satır
+
+**4. project-rules.md Güncellendi**
+
+- +71 satır, -5 satır değişiklik
+- Güncelleme detayları incelenmeli (sonraki adım)
+
+#### Genel İstatistikler (Güncelleme Sonrası)
+
+**Prompt Kategorileri:**
+- TABLET: 7 prompt
+- HERO: 7 prompt (5 universal + 2 Sade-specific)
+- BONBON: 15 prompt (YENİ)
+- SEASONAL: 3 prompt (YENİ)
+
+**Toplam:**
+- **Kategori Sayısı:** 4
+- **Prompt Sayısı:** 32+
+- **Toplam Satır:** ~8,500+ satır (önceki 5,000 + yeni 2,263 + README'ler)
+- **Dosya Sayısı:** 50+ (.md + .json dosyaları)
+
+#### Klasör Yapısı (Güncel)
+
+```
+prompts/
+├── TABLET/
+│   ├── HERO/                               (5 konsept - universal)
+│   ├── TABLET-BREAK-MOMENT/
+│   ├── TABLET-CLASSIC-PAIR/
+│   ├── TABLET-DUAL-ANGLE-LEVITATION-HIGHKEY/
+│   ├── TABLET-PARALLEL-SEQUENCE/
+│   ├── TABLET-SCULPTURAL-MACRO/
+│   ├── TABLET-SINGLE-STANDING/
+│   └── TABLET-UNWRAPPED-HERO/
+├── HERO/
+│   ├── SADE-HYBRID-HERO/                   (YENİ)
+│   ├── TURKISH-INFUSED-ARTISAN-CHOCOLATE/  (YENİ)
+│   └── [5 universal HERO konsepti]
+├── BONBON/                                  (YENİ KATEGORI)
+│   ├── 1-BONBON-CUT-REVEAL/
+│   ├── 1-BONBON-DUST-EXPLOSION/
+│   ├── 1-BONBON-HAND-PRESENTATION/
+│   ├── 1-BONBON-HERO-MACRO/
+│   ├── 1-BONBON-REFLECTION-MIRROR/
+│   ├── 1-BONBON-SHADOW-PLAY/
+│   ├── 12-BONBON-GRID-COLLECTION/
+│   ├── 3-BONBON-INGREDIENT-STORY/
+│   ├── 3-BONBON-TRIO-ELEGANCE/
+│   ├── 4-BONBON-STACK-SCULPTURE/
+│   ├── 5-BONBON-FLOATING-CONSTELLATION/
+│   ├── 6-BONBON-COLOR-GRADIENT/
+│   ├── 6-BONBON-GIFT-BOX-PEEK/
+│   ├── 6-BONBON-RAIN-CASCADE/
+│   ├── 7-BONBON-SCATTERED-ORGANIC/
+│   └── README.md
+└── SEASONAL/                                (YENİ KATEGORI)
+    └── VALENTINES-BOX-COLLECTION/
+        ├── SADE-VALENTINE-FINAL.md
+        ├── SADE-VALENTINE-V2-VARIATIONS.md
+        └── VALENTINES-BOX-COLLECTION.md
+```
+
+#### Sonraki Adımlar
+
+- [ ] BONBON prompt'larını incelemek ve test etmek
+- [ ] SEASONAL/Valentine's konseptini değerlendirmek
+- [ ] project-rules.md güncellemesini detaylı incelemek
+- [ ] SADE-HYBRID-HERO prompt'unu test etmek
+- [ ] Prompt kütüphanesi için index/navigation sistemi düşünmek
+
+---
+
+## 2026-01-12
+
+### Yapılan İşler
+
+#### Yeni Kategori: EDITORIAL
+
+**CAFE-PATISSERIE Prompt Oluşturuldu**
+- **Kategori:** EDITORIAL (YENİ)
+- **Konsept:** Artisan Café & Patisserie Editorial Photography
+- **Dosyalar:** 3 adet (.md + .json + README.md)
+- **Toplam Satır:** ~600 satır dokümantasyon
+
+**Prompt Özellikleri:**
+- Editorial-style artisan café/patisserie fotoğrafçılığı
+- Minimal, warm, European bakery aesthetic
+- Flat lay / 45° angle / eye-level compositions
+- Natural human interaction (hands holding pastry, slicing cake, pouring coffee)
+- Soft natural daylight, low contrast
+- Warm neutral color palette (cream, beige, soft brown, muted caramel)
+- Film-like aesthetic (Kodak Portra tones, subtle grain)
+- Instagram editorial, premium lifestyle branding
+
+**Stil Varyasyonları (4 adet):**
+1. Pure Minimal - Maksimum negatif alan, monochrome
+2. Lifestyle Moments - İnsan etkileşimi, storytelling
+3. Rustic Warmth - Ahşap yüzeyler, terracotta accent, homemade his
+4. French Elegance - White porcelain, linen, zarif minimalizm
+
+**Platform Önerileri:**
+- **Primary:** DALL-E 3 (typography + warm palette)
+- **Backup:** Gemini (artisan texture detail)
+- **Alternative:** Midjourney (film aesthetic)
+
+**Klasör Yapısı:**
+```
+prompts/EDITORIAL/
+└── CAFE-PATISSERIE/
+    ├── CAFE-PATISSERIE.md (ana prompt + detaylar)
+    ├── CAFE-PATISSERIE.json (programmatic access)
+    └── README.md (kategori özeti + kullanım)
+```
+
+**Kullanım Senaryoları:**
+- Instagram editorial posts
+- Social media content (bakery/café brands)
+- Menu photography
+- Brand storytelling
+- Website hero sections
+- Print magazine editorials
+- Lifestyle brand content
+
+**Target Brands:**
+- Artisan bakeries
+- Specialty coffee shops
+- Patisserie boutiques
+- Farm-to-table cafés
+- European-style bakeries
+- Premium lifestyle brands
+
+**Tipografi Entegrasyonu (Opsiyonel):**
+- Elegant serif / modern classic fonts
+- Small, refined typography
+- Off-white veya muted brown renk
+- Editorial magazine layout
+- Bol whitespace
+
+**Gelecek İyileştirmeler (Planlanan):**
+- [ ] Seasonal variations (Christmas, Valentine's, Spring, Summer)
+- [ ] Specific product focus (croissant-only, coffee-only, cake-only)
+- [ ] Color palette variations (cool tones, monochrome, high contrast)
+- [ ] Time-of-day variations (morning light, golden hour, evening)
+
+---
+
+### Proje İstatistikleri (Güncel)
+
+**Toplam Kategori:** 5
+- TABLET (7 prompt)
+- BONBON (15 prompt)
+- HERO (7 prompt)
+- SEASONAL (3 prompt)
+- EDITORIAL (1 prompt) ← YENİ
+
+**Toplam Prompt:** 33
+**Toplam Dosya:** 55+ (.md + .json + README)
+**Toplam Satır:** ~9,100+ satır
+
+---
+
 ## Yapılacaklar (Sonraki Oturum)
 
+### Öncelik 1: Yeni İçerik İnceleme & Test
+- [ ] **BONBON Prompt'ları İncele ve Test Et** (15 prompt - YENİ)
+  - [ ] Hero prompts (Cut-Reveal, Dust-Explosion, Hand-Presentation, vb.)
+  - [ ] Collection prompts (Grid, Trio, Stack)
+  - [ ] Creative prompts (Floating-Constellation, Rain-Cascade)
+- [ ] **Valentine's SEASONAL Konseptini Değerlendir**
+  - [ ] SADE-VALENTINE-FINAL test et
+  - [ ] V2-VARIATIONS inceleyip en iyi varyasyonu seç
+- [ ] **SADE-HYBRID-HERO Prompt'unu Test Et** (Tablet + Bonbon kombinasyonu)
+- [ ] **project-rules.md Güncellemesini İncele** (+71 satır değişiklik)
+
+### Öncelik 2: Mevcut Görevler
 - [ ] BREAK-MOMENT V5 testi (kırık yüzey orientasyonu doğrulandı mı?)
-- [ ] HERO prompt'larını test et (5 konsept)
-- [ ] Chocolate Intelligence Skill implementasyonu
-- [ ] Yeni ürün kategorileri için prompt'lar (BONBON, BARS, vb.)
+- [ ] HERO prompt'larını test et (5 universal konsept: Floating-Constellation, Diagonal-Cascade, vb.)
+- [ ] TURKISH-INFUSED-ARTISAN-CHOCOLATE konseptini değerlendir
+
+### Öncelik 3: Skill Geliştirme
+- [ ] Chocolate Intelligence Skill implementasyonu (Callebaut.com araştırması)
+- [ ] CekimPromptu.md lazy loading stratejisi (7000+ satır)
+
+### Öncelik 4: Teknik Altyapı
+- [ ] Prompt kütüphanesi için index/navigation sistemi tasarla (32+ prompt)
 - [ ] Web arayüzü için JSON API endpoint tasarımı
+- [ ] Prompt versiyonlama sistemi düşün (V1, V2, V3 takibi)
 
 ---
 

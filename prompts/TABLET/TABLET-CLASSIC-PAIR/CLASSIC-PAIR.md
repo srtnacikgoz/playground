@@ -12,7 +12,7 @@ Tüm tablet çikolata ürünleri için basic/temel sunum promptu. Unwrapped bar 
 ## DALL-E 3 PROMPT
 
 ```
-Professional product photography flat lay composition featuring TWO chocolate products side by side on surface: LEFT an unwrapped bare chocolate bar showing textured pattern surface tilted at slight angle, RIGHT the same product in branded packaging tilted at complementary angle creating visual dialogue between products. Small chocolate pieces scattered artfully around both products at varying distances adding dynamic energy. Soft diffused lighting from above casting gentle shadows beneath products. Clean minimalist composition with intentional asymmetrical balance. Shot from directly above (bird's eye view) or slightly elevated angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color, texture pattern and packaging design exactly
+Professional product photography flat lay composition featuring TWO chocolate products side by side on surface: LEFT an unwrapped bare chocolate bar (85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions) showing textured pattern surface tilted at slight angle, RIGHT the same product in branded packaging tilted at complementary angle creating visual dialogue between products. Small chocolate pieces scattered artfully around both products at varying distances adding dynamic energy. Soft diffused lighting from above casting gentle shadows beneath products. Clean minimalist composition with intentional asymmetrical balance. Shot from directly above (bird's eye view) or slightly elevated angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color, texture pattern and packaging design exactly
 ```
 
 ---
@@ -20,7 +20,7 @@ Professional product photography flat lay composition featuring TWO chocolate pr
 ## NEGATIVE PROMPT
 
 ```
-centered symmetrical composition, products far apart, no scattered pieces, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference, packaging mismatch with reference
+brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thickness, NOT a flat tablet, thick bar, chunky shape, centered symmetrical composition, products far apart, no scattered pieces, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference, packaging mismatch with reference
 ```
 
 ---

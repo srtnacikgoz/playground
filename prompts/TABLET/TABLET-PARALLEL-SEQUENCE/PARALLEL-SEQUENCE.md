@@ -12,7 +12,7 @@ Tüm tablet çikolata ürünleri için universal horizontal array prompt. Refera
 ## DALL-E 3 PROMPT
 
 ```
-Professional product photography of FIVE identical unwrapped bare chocolate bars without packaging arranged in a horizontal row, evenly spaced, each bar positioned at a subtle matching angle creating visual rhythm and repetition. Soft diffused omnidirectional lighting from above-front casting gentle unified shadows beneath each bar. Clean minimalist composition, symmetrical arrangement with consistent spacing between products. Commercial product photography style, high-key lighting, muted warm tones. Shot from slightly elevated front angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Ultra-clean aesthetic, premium confectionery presentation, 8k photorealistic quality with professional studio lighting setup, matching the reference image's color and texture pattern exactly
+Professional product photography of FIVE identical unwrapped bare chocolate bars (85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions) without packaging arranged in a horizontal row, evenly spaced, each bar positioned at a subtle matching angle creating visual rhythm and repetition. Soft diffused omnidirectional lighting from above-front casting gentle unified shadows beneath each bar. Clean minimalist composition, symmetrical arrangement with consistent spacing between products. Commercial product photography style, high-key lighting, muted warm tones. Shot from slightly elevated front angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Ultra-clean aesthetic, premium confectionery presentation, 8k photorealistic quality with professional studio lighting setup, matching the reference image's color and texture pattern exactly
 ```
 
 ---
@@ -20,7 +20,7 @@ Professional product photography of FIVE identical unwrapped bare chocolate bars
 ## NEGATIVE PROMPT
 
 ```
-packaging, wrapper, foil wrapper, branded packaging, sealed package, box, cellophane, plastic wrap, uneven spacing, different angles on each bar, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference
+brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thickness, NOT a flat tablet, thick bar, chunky shape, packaging, wrapper, foil wrapper, branded packaging, sealed package, box, cellophane, plastic wrap, uneven spacing, different angles on each bar, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference
 ```
 
 ---
