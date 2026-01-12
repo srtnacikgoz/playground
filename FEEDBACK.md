@@ -230,6 +230,38 @@ Bu dosya Photo Prompt Studio projesi ile ilgili hataları, geri bildirimleri, iy
 
 **Durum:** ✅ Tamamlandı - 6 prompt optimize edildi, quirk'lar dokümante edildi
 
+### [IMP-006] DALL-E 3 Quirk: Tilted Angle Deformasyon
+- **Kategori:** improvement
+- **Öncelik:** high
+- **Durum:** completed
+- **Tarih:** 2026-01-11
+- **Açıklama:** CLASSIC-PAIR promptunda "tilted at slight angle" ifadesi DALL-E 3'ün hem çikolata pattern'ini hem de ambalajı deforme etmesine sebep oldu.
+
+**Keşfedilen Sorunlar:**
+1. **Çikolata Pattern Deformasyonu** - Küp/geometrik desen yamuk ve düzensiz
+2. **Ambalaj Yamulması** - Packaging kenarları eğri, bükülmüş
+3. **Scattered Parça Deformasyonu** - Etraftaki küçük parçalar da deforme
+
+**Kullanıcı Feedback'i:** "çikolatanın dokusunu bozuyor ve ambalajda deformasyonlar oluşturuyor... çikolata ve ambalajı düz dursunlar"
+
+**Kök Neden:** "tilted at slight angle" ve "tilted at complementary angle" ifadeleri
+
+**Çözüm:**
+- ❌ Kaldırılan: "tilted at slight angle", "tilted at complementary angle"
+- ✅ Eklenen: "LYING COMPLETELY FLAT on surface with NO TILT"
+- ✅ Eklenen: "PERFECT RECTANGULAR SHAPE"
+- ✅ Eklenen: "CRISP STRAIGHT EDGES and NO WARPING"
+- ✅ Eklenen: "FLAT with SHARP CLEAN EDGES" (scattered pieces için)
+- ✅ Negative prompt'a: "tilted products, angled products, bent chocolate, warped packaging, curved edges, deformed pattern, distorted surface, wavy edges, bent corners, warped texture"
+
+**Güncellenen Dosyalar:**
+- CLASSIC-PAIR.md (V1.0 → V1.1)
+- CLASSIC-PAIR.json (V1.0 → V1.1)
+
+**Öğrenilen Ders:** DALL-E 3'te "tilt" veya "angle" terimlerini ürünlere uygulamak deformasyona neden oluyor. Flat-lay composition'larda ürünlerin "completely flat, no tilt" olması gerekiyor.
+
+**Durum:** ✅ Tamamlandı - Prompt güncellendi, test bekliyor
+
 ---
 
 ### [REFACTOR-001] Skill dosya yapısının modülerleştirilmesi değerlendirilmesi

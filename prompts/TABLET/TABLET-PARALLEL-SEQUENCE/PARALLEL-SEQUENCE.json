@@ -1,10 +1,10 @@
 {
   "name": "Parallel Sequence",
-  "version": "1.0",
+  "version": "1.1",
   "category": "TABLET",
   "status": "testing",
   "created": "2026-01-10",
-  "updated": "2026-01-10",
+  "updated": "2026-01-11",
 
   "platform": {
     "primary": "DALL-E 3",
@@ -19,10 +19,10 @@
 
   "composition": {
     "framing": "full_product_row",
-    "subject": "five_identical_bars",
-    "orientation": "horizontal_row",
-    "arrangement": "evenly_spaced_parallel",
-    "angle": "subtle_matching_angle_each_bar",
+    "subject": "five_identical_bars_15x8x1cm_85g",
+    "orientation": "horizontal_row_lying_flat",
+    "arrangement": "evenly_spaced_perfectly_parallel",
+    "angle": "no_tilt_no_angle_completely_flat",
     "background": "soft_off_white_textured",
     "elements_visible": ["bare_chocolate_bars", "surface_texture"],
     "elements_hidden": ["packaging", "wrapper", "branding", "label", "foil"]
@@ -30,7 +30,7 @@
 
   "camera": {
     "lens": "standard",
-    "angle": "slightly_elevated_front",
+    "angle": "bird_eye_view_directly_above",
     "depth_of_field": "moderate",
     "focus": {
       "type": "full_product",
@@ -82,8 +82,7 @@
   },
 
   "prompt": {
-    "main": "Professional product photography of FIVE identical unwrapped bare chocolate bars without packaging arranged in a horizontal row, evenly spaced, each bar positioned at a subtle matching angle creating visual rhythm and repetition. Soft diffused omnidirectional lighting from above-front casting gentle unified shadows beneath each bar. Clean minimalist composition, symmetrical arrangement with consistent spacing between products. Commercial product photography style, high-key lighting, muted warm tones. Shot from slightly elevated front angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Ultra-clean aesthetic, premium confectionery presentation, 8k photorealistic quality with professional studio lighting setup, matching the reference image's color and texture pattern exactly",
-    "negative": "packaging, wrapper, foil wrapper, branded packaging, sealed package, box, cellophane, plastic wrap, uneven spacing, different angles on each bar, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference"
+    "main": "Professional product photography of FIVE identical unwrapped chocolate bars (15x8x1cm, 85g each) arranged in horizontal row LYING COMPLETELY FLAT on surface, evenly spaced, ALL BARS PERFECTLY PARALLEL to each other with NO TILT and NO ANGLE. Shot from directly above (bird's eye view). Soft diffused lighting from above, high-key lighting, soft off-white background with subtle texture at 3% opacity, museum-like spacing. 8k photorealistic quality, matching the reference image's color and texture pattern exactly."
   },
 
   "quality": {

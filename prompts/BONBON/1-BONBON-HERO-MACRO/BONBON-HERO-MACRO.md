@@ -1,59 +1,36 @@
 # BONBON-HERO-MACRO
 
-Extreme close-up hero shot focusing on single bonbon's artisan details and decorative elements.
+Extreme close-up hero shot focusing on single bonbon's artisan details.
 
 ---
 
 ## MAIN PROMPT
 
 ```
-Using the uploaded bonbon photograph as reference, create professional extreme macro product photography showcasing the bonbon as hero subject. Maintain the bonbon's exact original shape, coating finish (glossy, matte, or textured), color, and all decorative elements (transfer patterns, gold dust, toppings, texture details) precisely as shown in the uploaded image. Shot from 45-degree slightly elevated angle showing the bonbon's complete form and surface details prominently. Bonbon positioned center frame, occupying 70% of composition.
-
-Image-to-Image Instructions:
-- Preserve the uploaded bonbon's actual shape exactly (dome, oval, rectangular, pyramid, or any other form)
-- Maintain coating type as shown (glossy tempered, matte, textured, or specialty finish)
-- Keep all decorative elements identical: transfer patterns, gold dust placement, toppings, texture
-- Preserve original color tones precisely
-- Bonbon resting flat on surface with full contact
-- Clean minimalist composition with single bonbon as hero
-
-Background & Surface (STANDARD):
-- Off-white seamless backdrop (RGB 250, 248, 245)
-- Subtle concrete texture at 3% opacity, barely perceptible
-- Warm minimalism aesthetic, non-distracting character
-- Infinite seamless surface
-
-Lighting:
-- Soft studio lighting from 45° angle with warm golden undertones
-- Gentle highlights appropriate to bonbon's coating finish
-- Professional depth of field, macro lens detail
-- High-key lighting with elegant contrast
-- All surface details clearly visible with crisp definition
-
-Technical Quality:
-- Macro lens perspective, extreme detail on surface
-- Sharp focus on decorative elements and texture
-- Coating finish beautifully rendered (whether glossy, matte, or textured)
-- No color bleeding, crisp edges
-- 8K resolution, fine art quality
-- Professional confectionery photography
-
-Style: Artisan luxury, extreme detail study, macro photography perfection, premium bonbon showcase, gallery-worthy presentation
+Professional extreme macro product photography of single bonbon as hero. Maintain bonbon's exact shape, coating finish, color, and all decorative elements from uploaded image. Bonbon resting flat on surface, center frame, occupying 70% of composition. Shot from 45-degree elevated angle showing complete form and surface details. Soft studio lighting from 45° with warm undertones, high-key. Standard backdrop: soft off-white (RGB 250,248,245) with 3% subtle texture. Sharp focus on decorative elements and texture. 8k photorealistic, macro lens detail.
 ```
 
 ---
 
-## NEGATIVE PROMPT
+## Konsept
 
-```
-multiple bonbons, cluttered composition, floating/levitation, changing bonbon shape, altering decorative patterns, different coating finish, color shifts from original, dark shadows, dramatic lighting, gradient background, pure white sterile background, props, packaging, human hands, melted appearance, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern modifications, shape distortion
-```
+**Ne yapar:** Tek bonbon'u extreme macro ile detaylı hero shot olarak sunar.
+
+**Anahtar Özellikler:**
+- Tek bonbon, center frame, %70 kaplama
+- Bonbon yüzeyde yatıyor (no levitation)
+- 45° açı, macro lens detay
+- Standart backdrop (tüm projede aynı)
+- High-key soft lighting
 
 ---
 
 ## USAGE
 
-- **Best For:** Catalog hero image, social media cover, product detail showcase
-- **Focus:** Exact bonbon preservation, artisan quality, surface detail
-- **Key Feature:** Extreme close-up maintaining original appearance
-- **Platform:** DALL-E 3 optimized (image-to-image)
+- **Best For:** Catalog hero, social media cover, product detail
+- **Platform:** DALL-E 3 / Gemini (image-to-image)
+
+---
+
+**Versiyon:** V1.1
+**Son Güncelleme:** 2026-01-11 - Kısaltıldı (~400 karakter)

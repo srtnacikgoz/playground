@@ -12,7 +12,7 @@ Tüm tablet çikolata ürünleri için basic/temel sunum promptu. Unwrapped bar 
 ## DALL-E 3 PROMPT
 
 ```
-Professional product photography flat lay composition featuring TWO chocolate products side by side on surface: LEFT an unwrapped bare chocolate bar (85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions) showing textured pattern surface tilted at slight angle, RIGHT the same product in branded packaging tilted at complementary angle creating visual dialogue between products. Small chocolate pieces scattered artfully around both products at varying distances adding dynamic energy. Soft diffused lighting from above casting gentle shadows beneath products. Clean minimalist composition with intentional asymmetrical balance. Shot from directly above (bird's eye view) or slightly elevated angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality, matching the reference image's color, texture pattern and packaging design exactly
+Professional product photography flat lay composition featuring TWO chocolate products side by side on surface: LEFT an unwrapped bare chocolate bar (standard tablet: 15cm x 8cm x 1cm, 85g) showing textured pattern surface LYING COMPLETELY FLAT on surface with NO TILT and PERFECT RECTANGULAR SHAPE, RIGHT the same product in branded packaging LYING COMPLETELY FLAT parallel to bar with CRISP STRAIGHT EDGES and NO WARPING. Small chocolate pieces scattered artfully around both products - each piece must be FLAT with SHARP CLEAN EDGES, no bending or curving. Soft diffused lighting from above casting gentle shadows beneath products. Clean minimalist composition with intentional asymmetrical balance. Shot from directly above (bird's eye view). soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Premium confectionery presentation, commercial product photography style, high-key lighting, 8k photorealistic quality. CRITICAL: Chocolate bar must have UNIFORM PATTERN with consistent depth across entire surface - no warping, no bending, no curved edges. Packaging must have PERFECTLY STRAIGHT edges like a real printed package. Match reference image's color, texture pattern and packaging design exactly.
 ```
 
 ---
@@ -20,7 +20,7 @@ Professional product photography flat lay composition featuring TWO chocolate pr
 ## NEGATIVE PROMPT
 
 ```
-brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thickness, NOT a flat tablet, thick bar, chunky shape, centered symmetrical composition, products far apart, no scattered pieces, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference, packaging mismatch with reference
+tilted products, angled products, bent chocolate, warped packaging, curved edges, deformed pattern, distorted surface, wavy edges, bent corners, warped texture, uneven pattern depth, melted appearance, soft edges, curved packaging, bent bar, twisted shape, centered symmetrical composition, products far apart, no scattered pieces, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference, packaging mismatch with reference
 ```
 
 ---
@@ -31,12 +31,19 @@ brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thi
 
 **Anahtar Özellikler:**
 - İki ürün yan yana (unwrapped + packaged)
-- Complementary açılar (visual dialogue)
-- Scattered küçük parçalar etrafta
+- Her iki ürün de TAMAMEN DÜZ yatıyor (no tilt, no angle)
+- Scattered küçük parçalar etrafta (düz, keskin kenarlı)
 - Flat lay / bird's eye view
 - High-key, soft diffused lighting
 - Asymmetrical balance
 - Editorial premium his
+
+**DALL-E 3 Quirk Çözümleri (V1.1):**
+- ❌ "tilted at angle" → Deformasyon yaratıyor
+- ✅ "LYING COMPLETELY FLAT" + "NO TILT" → Düz, temiz kenarlar
+- ✅ "PERFECT RECTANGULAR SHAPE" → Pattern bozulması önlenir
+- ✅ "CRISP STRAIGHT EDGES" → Ambalaj düz durur
+- ✅ Negative: "warped, bent, curved, deformed" → Yamukluğu engeller
 
 **AI Referanstan Öğrenir:**
 - Pattern tipi (wavy, hexagon, grid, vb.)
@@ -83,12 +90,18 @@ brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thi
 ## Test Notları
 
 ### DALL-E 3
-- [ ] Test edilecek
+- [x] **V1.0 Test (2026-01-11):** Gold çikolata - BAŞARISIZ
+  - ❌ Çikolata pattern deformasyonu (küp deseni yamuk)
+  - ❌ Ambalaj kenarları eğri/bükülmüş
+  - ❌ Scattered parçalar deforme
+  - **Neden:** "tilted at slight angle" ifadesi
+- [ ] **V1.1 Test:** Düzeltilmiş prompt test edilecek
 
 ### Gemini
 - [ ] Test edilecek
 
 ---
 
-**Versiyon:** V1.0
+**Versiyon:** V1.1
 **Oluşturma Tarihi:** 2026-01-10
+**Son Güncelleme:** 2026-01-11 - Deformasyon quirk'ı çözüldü (tilted → flat)

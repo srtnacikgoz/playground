@@ -12,15 +12,7 @@ Tüm tablet çikolata ürünleri için universal horizontal array prompt. Refera
 ## DALL-E 3 PROMPT
 
 ```
-Professional product photography of FIVE identical unwrapped bare chocolate bars (85g tablet: 16cm long x 7cm wide x 0.7cm THIN flat proportions) without packaging arranged in a horizontal row, evenly spaced, each bar positioned at a subtle matching angle creating visual rhythm and repetition. Soft diffused omnidirectional lighting from above-front casting gentle unified shadows beneath each bar. Clean minimalist composition, symmetrical arrangement with consistent spacing between products. Commercial product photography style, high-key lighting, muted warm tones. Shot from slightly elevated front angle. soft off-white background (adjusted to complement the chocolate's natural color tones), subtle texture at 3% opacity adding organic character, museum-like spacing and editorial luxury feel. Ultra-clean aesthetic, premium confectionery presentation, 8k photorealistic quality with professional studio lighting setup, matching the reference image's color and texture pattern exactly
-```
-
----
-
-## NEGATIVE PROMPT
-
-```
-brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thickness, NOT a flat tablet, thick bar, chunky shape, packaging, wrapper, foil wrapper, branded packaging, sealed package, box, cellophane, plastic wrap, uneven spacing, different angles on each bar, cluttered composition, dark shadows, dramatic lighting, gradient background, pure white sterile background, vignette effects, busy background, props visible, human hands, low resolution, blurry, 3d render, cartoon style, plastic appearance, generic AI aesthetic, watermark, pattern mismatch with reference, color mismatch with reference
+Professional product photography of FIVE identical unwrapped chocolate bars (15x8x1cm, 85g each) arranged in horizontal row LYING COMPLETELY FLAT on surface, evenly spaced, ALL BARS PERFECTLY PARALLEL to each other with NO TILT and NO ANGLE. Shot from directly above (bird's eye view). Soft diffused lighting from above, high-key lighting, soft off-white background with subtle texture at 3% opacity, museum-like spacing. 8k photorealistic quality, matching the reference image's color and texture pattern exactly.
 ```
 
 ---
@@ -30,11 +22,13 @@ brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thi
 **Ne yapar:** Identik çikolata barları yatay sırada ritmik tekrar ile gösterir.
 
 **Anahtar Özellikler:**
-- 5 identik bar yatay dizilim
-- Her bar aynı hafif açıda (visual rhythm)
+- 5 identik bar yatay dizilim (15x8x1cm, 85g)
+- Tümü TAMAMEN DÜZ yatıyor (no tilt, no angle)
+- Tümü birbirine PARALEL
+- Bird's eye view (tam yukarıdan)
 - Eşit aralıklı spacing
 - High-key, soft diffused lighting
-- Minimalist, simetrik kompozisyon
+- Minimalist kompozisyon
 - Unwrapped/bare - ambalajsız
 
 **AI Referanstan Öğrenir:**
@@ -70,17 +64,18 @@ brownie thickness, cake thickness, 3D chunky block, thick edges, exaggerated thi
 
 ## Test Notları
 
+### Gemini
+- [x] **V1.0 Test (2026-01-11):** Bitter çikolata - BAŞARISIZ
+  - ❌ Çikolatalar DİK duruyor (standing), yatay değil
+  - ❌ Her bar farklı açıda/yamuk
+  - **Neden:** "subtle matching angle" + "slightly elevated front angle"
+- [ ] **V1.1 Test:** Düzeltilmiş prompt test edilecek
+
 ### DALL-E 3
 - [ ] Test edilecek
 
-### Gemini
-- [ ] Test edilecek
-
-### Diğer AI'ler (Midjourney, vb.)
-- Ambalajlı üretme eğilimi var
-- Negative prompt'taki packaging terimleri kritik
-
 ---
 
-**Versiyon:** V1.0
+**Versiyon:** V1.1
 **Oluşturma Tarihi:** 2026-01-10
+**Son Güncelleme:** 2026-01-11 - Flat-lay + bird's eye view düzeltmesi, negative prompt kaldırıldı

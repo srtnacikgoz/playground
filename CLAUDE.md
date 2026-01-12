@@ -37,6 +37,25 @@
 
 ---
 
+## 🎨 Proje Standartları (Photo Prompt Studio)
+
+### Standart Arka Plan (Tüm Proje İçin Geçerli)
+```
+Standard backdrop: soft off-white (RGB 250,248,245) with 3% subtle texture
+```
+- Tüm TABLET ve BONBON prompt'larında kullanılır
+- Warm minimalism estetiği
+- "Standart backdrop" yazmak yeterli
+
+### Renk Uyumu Kuralı
+- Görsele giren **tüm elementler** (toz, prop, gölge, kutu vb.) referans ürünün renk tonlarına uyumlu olmalı
+- **İstisnalar (doğal kalır, değişmez):**
+  - İnsan eli/cilt tonu
+  - Meyve/sebze doğal renkleri
+  - Kakao, fındık gibi ham malzeme renkleri
+
+---
+
 ## 📝 Dosya Güncelleme Kuralları
 
 ### hedefler.md Güncellemesi
@@ -61,8 +80,15 @@
 - **ASLA** bu 6 dosyayı okumadan işe başlama
 - **HER ZAMAN** proje kurallarına uy (project-rules.md)
 - **MUTLAKA** kullanıcı bağlamını dikkate al (kişiselbağlam.md)
-- **KEsinlikle** günlük kayıt tut (GUNLUK.md)
+- **KESİNLİKLE** günlük kayıt tut (GUNLUK.md)
 - **DÜZENLİ** olarak hedefleri kontrol et (hedefler.md)
+
+---
+
+## 💬 İletişim Kuralları
+
+- **Her prompt'a kısa da olsa fikrini sun** - Kullanıcının yazdığı her prompt hakkında düşüncelerini paylaş
+- **Her oturum sonunda bu dosyayı oku** - Güncellemeleri kontrol et ve uygula
 
 ---
 
