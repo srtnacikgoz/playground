@@ -1,95 +1,55 @@
 # Claude Oturum Talimatları
 
-**ÖNEMLI:** Her oturum başında aşağıdaki dosyaları oku ve talimatlarına uy:
-
-## 📋 Zorunlu Okunacak Dosyalar
-
-1. **hedefler.md** - Proje hedefleri, kısa/orta/uzun vadeli planlar, başarı metrikleri
-2. **GUNLUK.md** - Günlük çalışma kayıtları, yapılan işler, sonraki görevler
-3. **fikirler.md** - Özellik fikirleri, geliştirme planları, brainstorming notları
-4. **FEEDBACK.md** - Hatalar, iyileştirme önerileri, kullanıcı geri bildirimleri
-5. **kişiselbağlam.md** - Kullanıcı tercihleri, çalışma stili, özel kurallar
-6. **project-rules.md** - Proje kuralları, kod standartları, mimari kararlar
+## Zorunlu Dosyalar
+1. **kişiselbağlam.md** - İletişim tercihleri
+2. **hedefler.md** - Aktif görevler
 
 ---
 
-## 🚀 Her Oturum Başında Yapılacaklar
+## Proje: Photo Prompt Studio
 
-1. **Yukarıdaki 6 dosyayı oku**
-   - Proje durumunu anla
-   - Son yapılan işleri gözden geçir
-   - Aktif görevleri tespit et
+AI görsel platformları için referans fotoğraflardan prompt üreten sistem.
 
-2. **Kullanıcıya özet sun:**
-   - ✅ Son 3 tamamlanan iş
-   - 🔄 Şu an yapılmakta olan (varsa)
-   - 📋 Sonraki 3 öncelikli görev
+### Tech Stack
+- Next.js 14, TypeScript, Tailwind CSS, Shadcn/ui
+- Client-side CV: Color Thief, TensorFlow.js
+- AI: Gemini Vision, DALL-E 3, Midjourney
 
-3. **Soru sor:**
-   - "Hangisini devam ettirelim?"
-   - Kullanıcıdan onay al
+### Kritik Kural: Image-to-Image ONLY
+- **ASLA** text-to-image (sıfırdan üretim) kullanma
+- **HER ZAMAN** gerçek ürün fotoğrafı referans olarak yükle
+- Prompt "Using uploaded image(s)..." ile başlamalı
 
-4. **İş tamamlandığında:**
-   - `hedefler.md` dosyasını güncelle
-   - Tamamlanan görevleri `[x]` ile işaretle
-   - `GUNLUK.md` dosyasına çalışma kaydı ekle
-   - Gerekirse `FEEDBACK.md` veya `fikirler.md` dosyalarını güncelle
-
----
-
-## 🎨 Proje Standartları (Photo Prompt Studio)
-
-### Standart Arka Plan (Tüm Proje İçin Geçerli)
+### Standart Backdrop (Tüm Promptlar İçin Varsayılan)
 ```
-Standard backdrop: soft off-white (RGB 250,248,245) with 3% subtle texture
+soft off-white (RGB 250,248,245) with 3% subtle texture
 ```
-- Tüm TABLET ve BONBON prompt'larında kullanılır
-- Warm minimalism estetiği
-- "Standart backdrop" yazmak yeterli
+- **Her promptta geçerli** - tekrar belirtmeye gerek yok
+- Arkaplan konusu kapalı, her zaman bu
 
-### Renk Uyumu Kuralı
-- Görsele giren **tüm elementler** (toz, prop, gölge, kutu vb.) referans ürünün renk tonlarına uyumlu olmalı
-- **İstisnalar (doğal kalır, değişmez):**
-  - İnsan eli/cilt tonu
-  - Meyve/sebze doğal renkleri
-  - Kakao, fındık gibi ham malzeme renkleri
+### Format Kuralları
+- **analyses/ klasörü** → Instagram formatı (4:5 portrait, 1:1 square)
+- **prompts/ klasörü** → Web/genel kullanım (oran belirtilmez)
 
----
+### Renk Uyumu
+- Tüm elementler (toz, prop, gölge) ürün tonlarına uyumlu
+- İstisnalar: insan eli, meyve/sebze, ham malzeme
 
-## 📝 Dosya Güncelleme Kuralları
-
-### hedefler.md Güncellemesi
-- Tamamlanan görevleri `[ ]` → `[x]` yap
-- Yeni görevleri uygun kategoriye ekle
-- Başarı metriklerini güncelle
-
-### GUNLUK.md Güncellemesi
-- Her oturumu yeni tarih başlığı ile kaydet
-- "Yapılan İşler" bölümüne detaylı açıklama ekle
-- "Yapılacaklar (Sonraki Oturum)" listesini güncelle
-
-### FEEDBACK.md Kullanımı
-- Hata tespit edildiğinde `[BUG-XXX]` formatında ekle
-- İyileştirme önerileri için `[IMP-XXX]` kullan
-- Refactoring gereklilikleri için `[REFACTOR-XXX]` kullan
+### Typography Kuralı (Kutu/Ambalaj)
+- **"SadeChocolate"** yazısı hiçbir şekilde deforme edilmemeli
+- **"Antalya"** alt yazısı tam ve okunaklı kalmalı
+- **Logo/çizimler** bozulmamalı
+- Promptlarda `CRITICAL:` etiketi ile vurgula
+- Negative prompt'a ekle: `text deformation, blurry typography, misspelled brand name`
+- Platform: **DALL-E 3** typography'de en başarılı
 
 ---
 
-## ⚠️ Önemli Kurallar
+## Kurumsal
+- **Firma:** Sade Unlu Mamülleri San ve Tic Ltd Şti
+- **Adres:** Yeşilbahçe mah. Çınarlı cd 47/A Muratpaşa Antalya
 
-- **ASLA** bu 6 dosyayı okumadan işe başlama
-- **HER ZAMAN** proje kurallarına uy (project-rules.md)
-- **MUTLAKA** kullanıcı bağlamını dikkate al (kişiselbağlam.md)
-- **KESİNLİKLE** günlük kayıt tut (GUNLUK.md)
-- **DÜZENLİ** olarak hedefleri kontrol et (hedefler.md)
-
----
-
-## 💬 İletişim Kuralları
-
-- **Her prompt'a kısa da olsa fikrini sun** - Kullanıcının yazdığı her prompt hakkında düşüncelerini paylaş
-- **Her oturum sonunda bu dosyayı oku** - Güncellemeleri kontrol et ve uygula
-
----
-
-**Not:** Bu talimatlar Photo Prompt Studio projesi için hazırlanmıştır ve her oturumda mutlaka uygulanmalıdır.
+### Brand Renkleri
+| Blue | Yellow | Mustard | Green | Peach | Orange |
+|------|--------|---------|-------|-------|--------|
+| #a4d1e8 | #e7c57d | #d4a945 | #a4d4bc | #f3d1c8 | #e59a77 |
