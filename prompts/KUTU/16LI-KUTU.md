@@ -51,7 +51,9 @@ Professional product photography of opened gift box on soft off-white backdrop (
 **[SADECE BONBONLAR] [ÜSTTEN] [KUTU YOK]**
 
 ```
-Professional flat lay product photography of 16 assorted artisan bonbons on soft off-white backdrop (RGB 250,248,245). Bonbons arranged in perfect 4x4 grid pattern with precise even spacing between each piece. Maintain exact appearance of each bonbon from uploaded images - colors, patterns, decorations accurate. Shot from directly above (90° bird's eye view). Soft diffused lighting from large overhead softbox eliminating all harsh shadows - each bonbon evenly lit. Clean catalog-style composition for product display. Bright, appetizing presentation showcasing variety and craftsmanship. No paper cups, no box elements - just chocolates on clean backdrop. 8k photorealistic, every piece razor-sharp with accurate colors.
+Using uploaded image(s) as reference for exact bonbon appearances.
+
+Professional flat lay product photography of artisan bonbons on soft off-white backdrop (RGB 250,248,245). Bonbons arranged in 4x4 grid pattern with even spacing. Replicate exact bonbon appearances from uploaded reference images. Shot from directly above (90° bird's eye view). Soft diffused overhead lighting, no harsh shadows. Clean catalog-style composition. Bright, appetizing presentation. No paper cups, no box elements - just chocolates on clean backdrop. 8k photorealistic.
 
 --no dark background, paper cups, box, tissue paper, uneven spacing, shadows between pieces, angled view
 ```
@@ -63,7 +65,9 @@ Professional flat lay product photography of 16 assorted artisan bonbons on soft
 **[AÇIK] [ÜSTTEN] [İÇERİK GÖRÜNÜR] [TAM GÖRÜNÜM]**
 
 ```
-Professional bird's eye view product photography of opened gift box on soft off-white backdrop (RGB 250,248,245). Looking directly down (90° angle) at open box revealing 16 assorted bonbons in 4x4 grid. Maintain exact box appearance from uploaded image. Branded tissue paper elegantly rolled back on two sides, framing the chocolates - CRITICAL: "SadeChocolate" logo pattern on tissue must be perfectly legible and properly repeated, not smudged or distorted. Each bonbon visible in white paper cup showing full variety of collection. White box edges creating clean rectangular frame around chocolates. Soft even overhead lighting with minimal shadows. Complete collection showcase, premium gift presentation. Bright, warm, inviting. 8k photorealistic.
+Using uploaded image(s) as reference for exact box and bonbon appearances.
+
+Professional bird's eye view product photography of a SINGLE opened gift box on soft off-white backdrop (RGB 250,248,245). ONE box only. Looking directly down (90° angle) revealing bonbons in 4x4 grid. Replicate exact appearances from uploaded reference. Branded tissue paper elegantly rolled back on two sides - CRITICAL: "SadeChocolate" logo pattern on tissue must be perfectly legible, not distorted. Each bonbon visible in white paper cup. White box edges creating clean rectangular frame. Soft even overhead lighting. 8k photorealistic.
 
 --no dark background, blurry text on tissue, distorted logo pattern, angled view, hands, props, harsh shadows
 ```

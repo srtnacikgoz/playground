@@ -3,15 +3,16 @@
 **Analiz Tamamlanma Tarihi:** 12 Ocak 2026
 **Sektör:** Bakery / Patisserie / Café
 **Platform:** Instagram (mobil)
-**Format:** 4:5 portrait (1080x1350px) veya 1:1 square (1080x1080px)
+**Format:** 9:16 story (1080x1920px) - TAM EKRAN DİKEY
 
 ---
 
 ## Prompt Kuralları
 
-- Her prompt başında format belirtilir: `[4:5 PORTRAIT]` veya `[1:1 SQUARE]`
+- Her prompt başında format belirtilir: `[9:16 STORY]`
 - İnsan elementi varsa işaretlenir: `[HANDS]` veya `[HUMAN]`
 - **Duman/steam efekti KULLANILMAZ**
+- Dikey kompozisyon: Üst ve alt alanda boşluk bırak (text overlay için)
 
 ---
 
@@ -45,7 +46,7 @@
 
 ### 1. Croissant Hero Shot - Lifestyle
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 A perfectly golden butter croissant held gently by feminine hands with natural manicure,
 warm morning window light from the left creating soft shadows, shallow depth of field,
 background showing blurred café interior with cream walls, 4:5 vertical aspect ratio
@@ -56,22 +57,22 @@ mobile-optimized composition with subject centered
 
 ### 2. Croissant Stack - Bakery Display
 ```
-[4:5 PORTRAIT]
+[9:16 STORY]
 Stack of three fresh butter croissants arranged casually on a light wooden cutting board,
 rustic linen napkin underneath, soft natural light from above-right, one croissant broken
 to show flaky interior layers, scattered crumbs adding authenticity, minimal props,
-off-white background with subtle texture, 4:5 vertical aspect ratio for Instagram,
+off-white background with subtle texture, 9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays,
 warm color palette with golden and cream tones, artisan bakery aesthetic,
 shallow depth of field focusing on top croissant, mobile-optimized framing
 ```
 
 ### 3. Croissant Close-up - Texture Detail
 ```
-[1:1 SQUARE]
+[9:16 STORY]
 Extreme close-up of croissant lamination layers, macro food photography showing buttery
 flaky texture, golden-brown caramelized exterior, soft natural side lighting revealing
 every delicate layer, shallow depth of field, warm cream background out of focus,
-1:1 square aspect ratio for Instagram, appetizing and tactile quality, warm color grading,
+9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with breathing room for text, appetizing and tactile quality, warm color grading,
 highlighting craftsmanship and artisan quality, mobile-optimized detail shot
 ```
 
@@ -81,21 +82,21 @@ highlighting craftsmanship and artisan quality, mobile-optimized detail shot
 
 ### 4. Sourdough Loaf - Artisan Hero
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 Freshly baked sourdough loaf with beautiful ear and scoring pattern, held by hands
 wearing a cream linen apron, rustic wooden surface beneath, soft window light creating
 warm highlights on the crust, flour dust visible in the air, artisan bakery setting
-suggested in blurred background, 4:5 vertical aspect ratio for Instagram,
+suggested in blurred background, 9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays,
 warm earth tones, editorial food photography style, the bread showing perfect
 golden-brown crust with open crumb visible where sliced, mobile-optimized composition
 ```
 
 ### 5. Sourdough Toast - Breakfast Scene
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 Two slices of toasted sourdough bread on a white ceramic plate, soft butter on top,
 feminine hand reaching for a slice, café table setting with latte art coffee cup nearby,
-natural morning light from window, 4:5 vertical aspect ratio for Instagram,
+natural morning light from window, 9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays,
 cream and warm brown color palette, lifestyle food photography, shallow depth of field,
 blurred café interior background, inviting breakfast moment, mobile-optimized framing
 ```
@@ -106,31 +107,31 @@ blurred café interior background, inviting breakfast moment, mobile-optimized f
 
 ### 6. Fruit Tart - Elegant Presentation
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 Beautiful citrus tart with thinly sliced blood oranges arranged in spiral pattern,
 glazed and glistening surface, served on a cream ceramic plate, feminine hands holding
 the plate at slight angle, soft natural light from left side, marble surface below,
-4:5 vertical aspect ratio for Instagram, minimal styling with single dried flower accent,
+9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays, minimal styling with single dried flower accent,
 warm color palette emphasizing orange and cream tones, high-end patisserie photography,
 shallow depth of field, mobile-optimized composition
 ```
 
 ### 7. Pear Tart - Rustic Elegance
 ```
-[1:1 SQUARE]
+[9:16 STORY]
 Whole pear tart with caramelized pear halves arranged in flower pattern, golden pastry
 crust visible, placed on weathered wooden board, antique cake server beside it,
 soft diffused natural light, one slice cut and slightly pulled away showing filling,
-1:1 square aspect ratio for Instagram, warm autumn color palette with browns and golds,
+9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with breathing room for text, warm autumn color palette with browns and golds,
 cozy bakery atmosphere, artisan quality visible in handmade details, mobile-optimized
 ```
 
 ### 8. Chocolate Tart - Dramatic
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 Rich dark chocolate tart with mirror glaze finish, single slice on white plate,
 fork making first cut to show silky ganache interior, elegant feminine hands holding fork,
-dramatic side lighting creating reflections on glaze, 4:5 vertical aspect ratio for Instagram,
+dramatic side lighting creating reflections on glaze, 9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays,
 minimal dark background suggesting sophisticated café setting, warm highlights contrasting
 with deep chocolate browns, indulgent and luxurious mood, mobile-optimized composition
 ```
@@ -141,7 +142,7 @@ with deep chocolate browns, indulgent and luxurious mood, mobile-optimized compo
 
 ### 9. Pain au Chocolat - Morning Ritual
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 Fresh pain au chocolat broken open revealing chocolate filling, placed on small white
 plate, coffee cup with latte art in background, feminine hand tearing the pastry,
 natural morning window light, café table with cream marble surface, 4:5 vertical aspect
@@ -151,10 +152,10 @@ breakfast scene, lifestyle food photography, mobile-optimized framing
 
 ### 10. Almond Croissant - Bakery Beauty
 ```
-[1:1 SQUARE]
+[9:16 STORY]
 Golden almond croissant topped with sliced almonds and powdered sugar, placed on
 parchment paper on wooden tray, soft natural light highlighting the caramelized edges,
-blurred bakery display case in background, 1:1 square aspect ratio for Instagram,
+blurred bakery display case in background, 9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with breathing room for text,
 warm cream color palette, one bite taken to show almond cream filling, scattered almond
 slices around, artisan bakery aesthetic, mobile-optimized composition
 ```
@@ -165,18 +166,18 @@ slices around, artisan bakery aesthetic, mobile-optimized composition
 
 ### 11. Bakery Counter Display
 ```
-[4:5 PORTRAIT] [HUMAN]
+[9:16 STORY] [HUMAN]
 Wide shot of artisan bakery display counter with various pastries arranged beautifully,
 croissants stacked, fruit tarts in neat rows, sourdough loaves, soft natural light
 flooding through large windows, cream tile walls, green plants adding life,
-staff member in background wearing apron, 4:5 vertical aspect ratio for Instagram,
+staff member in background wearing apron, 9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays,
 warm and welcoming café atmosphere, warm color grading with cream and wood tones,
 mobile-optimized interior shot
 ```
 
 ### 12. Brunch Table Scene
 ```
-[1:1 SQUARE] [HANDS]
+[9:16 STORY] [HANDS]
 Overhead flat lay of brunch table with Mediterranean breakfast spread, fresh bread basket,
 butter dish, coffee cups with latte art, fresh orange juice, feminine hands reaching
 across table, natural light from above, cream linen tablecloth, 1:1 square aspect ratio
@@ -190,20 +191,20 @@ lifestyle food photography, mobile-optimized flat lay composition
 
 ### 13. Winter Holiday - Panettone
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 Traditional panettone with slice cut, displayed on vintage cake stand, feminine hands
 placing decorative ribbon, soft warm lighting suggesting holiday atmosphere, kraft paper
 and pine branches as props, golden raisins and candied fruit visible in slice,
-4:5 vertical aspect ratio for Instagram, cream background with subtle bokeh lights,
+9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays, cream background with subtle bokeh lights,
 cozy winter bakery mood, gift-worthy presentation, mobile-optimized composition
 ```
 
 ### 14. Autumn - Pumpkin Pastry
 ```
-[4:5 PORTRAIT] [HANDS]
+[9:16 STORY] [HANDS]
 Pumpkin spice danish pastry with cream cheese swirl, autumn leaves scattered as props,
 warm cinnamon tones, soft natural light, rustic wooden surface, feminine hand holding
-mug of coffee nearby, 4:5 vertical aspect ratio for Instagram, cozy fall atmosphere,
+mug of coffee nearby, 9:16 vertical story aspect ratio for Instagram Stories, full-screen mobile vertical composition with space at top and bottom for text overlays, cozy fall atmosphere,
 orange and cream color palette, seasonal bakery aesthetic, mobile-optimized framing
 ```
 
@@ -217,7 +218,7 @@ artificial looking food, overly saturated colors, cluttered composition, commerc
 stock photo look, sterile white background, CGI or 3D rendered appearance, fast food
 aesthetic, neon colors, busy patterns, corporate sterile environment, flash photography,
 perfect symmetry (too artificial), heavy filters, overly processed appearance,
-wrong aspect ratio, landscape orientation
+wrong aspect ratio, landscape orientation, square format, 4:5 ratio, horizontal composition
 ```
 
 ---

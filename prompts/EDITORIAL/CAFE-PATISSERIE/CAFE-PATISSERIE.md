@@ -5,6 +5,7 @@
 Minimal, sıcak, Avrupa tarzı bakery estetiği ile rafine, doğal his. Modern editorial dergi görünümü, yavaş yaşam atmosferi, otantik ve zamansız cafe kültürü.
 
 **Platform:** DALL-E 3 (Önerilen) | Gemini (Backup) | Midjourney (Alternatif)
+**Format:** 9:16 story (1080x1920px) - Instagram Stories tam ekran dikey
 **Konsept:** Editorial-style artisan café & patisserie photography - warm minimalism, authentic moments
 
 ---
@@ -12,10 +13,11 @@ Minimal, sıcak, Avrupa tarzı bakery estetiği ile rafine, doğal his. Modern e
 ## DALL-E 3 PROMPT
 
 ```
-Editorial-style artisan café and patisserie photography. Minimal, warm, European bakery aesthetic with a refined natural feel.
+[9:16 STORY FORMAT]
+Editorial-style artisan café and patisserie photography in 9:16 vertical story aspect ratio (1080x1920px) for Instagram Stories. Minimal, warm, European bakery aesthetic with a refined natural feel. Full-screen mobile vertical composition.
 
 SCENE & COMPOSITION:
-Flat lay or 45-degree angle tabletop composition, or intimate eye-level café moments. Subject centered or gently off-center following rule of thirds. Natural human interaction where appropriate: hands holding pastry, slicing cake, pouring coffee. Clean but lived-in surfaces: marble, light wood, ceramic plates, linen napkins. Negative space intentionally preserved for visual breathing and potential typography placement.
+Vertical portrait composition optimized for mobile Stories - subject positioned in center-lower third, leaving breathing room at top and bottom for text overlays. 45-degree angle tabletop or intimate eye-level café moments work best for tall vertical format. Natural human interaction where appropriate: hands holding pastry, slicing cake, pouring coffee. Clean but lived-in surfaces: marble, light wood, ceramic plates, linen napkins. Generous negative space at top (20%) and bottom (15%) for Story stickers, text, and swipe-up prompts.
 
 PRODUCTS & DETAILS:
 Handcrafted pastries, tarts, breads, croissants, cakes showcasing artisanal quality. Imperfect, artisanal textures clearly visible - natural folds, organic shapes, rustic edges. No excessive styling, no artificial gloss, no plastic props. Neutral ceramic and natural material props only. Authentic bakery presentation.
@@ -33,9 +35,9 @@ MOOD & STYLE:
 Calm, cozy, slow-living atmosphere. Modern European café culture. Authentic, intimate, timeless feeling. Instagram editorial aesthetic, premium lifestyle branding. Inviting yet refined, approachable luxury.
 
 TECHNICAL SPECIFICATIONS:
-Ultra high resolution, 8k quality. Shallow depth of field where compositionally appropriate, keeping main subject sharp. Film-like softness with subtle grain texture. Natural color grading avoiding HDR look. Professional food photography standards with authentic presentation.
+9:16 vertical aspect ratio (1080x1920 pixels) - Instagram Story dimensions. Ultra high resolution, 8k quality. Shallow depth of field where compositionally appropriate, keeping main subject sharp. Film-like softness with subtle grain texture. Natural color grading avoiding HDR look. Professional food photography standards with authentic presentation. Vertical framing maximizes mobile screen real estate.
 
-Shot on 50mm lens perspective, natural bokeh, analog film aesthetic with Kodak Portra-like tones, soft grain, understated elegance, artisanal French bakery mood, modern luxury minimalism.
+Shot on 50mm lens perspective, natural bokeh, analog film aesthetic with Kodak Portra-like tones, soft grain, understated elegance, artisanal French bakery mood, modern luxury minimalism. Tall vertical composition filling phone screen.
 ```
 
 ---
@@ -43,7 +45,7 @@ Shot on 50mm lens perspective, natural bokeh, analog film aesthetic with Kodak P
 ## NEGATIVE PROMPT
 
 ```
-bright artificial colors, neon tones, oversaturated, over-styled food, glossy artificial finish, plastic appearance, stock photo look, generic commercial photography, hard shadows, dramatic lighting, harsh spotlight, studio flash, aggressive branding, bold typography, centered-heavy text, cluttered composition, busy background, gradient vignette, HDR processing, artificial color grading, digital render look, 3D CGI, cartoon style, props overload, modern plastic materials, stainless steel, chrome finishes, cold industrial aesthetic, fast food presentation, processed food appearance, perfect geometric arrangement, artificial symmetry, staged look, catalog photography style, lifeless composition, sterile environment, pure white background, clinical lighting, product shot isolation, watermark, low resolution, blurry, noise artifacts, compression artifacts, amateur photography
+landscape orientation, horizontal composition, square format, 1:1 ratio, 4:5 ratio, wrong aspect ratio, bright artificial colors, neon tones, oversaturated, over-styled food, glossy artificial finish, plastic appearance, stock photo look, generic commercial photography, hard shadows, dramatic lighting, harsh spotlight, studio flash, aggressive branding, bold typography, centered-heavy text, cluttered composition, busy background, gradient vignette, HDR processing, artificial color grading, digital render look, 3D CGI, cartoon style, props overload, modern plastic materials, stainless steel, chrome finishes, cold industrial aesthetic, fast food presentation, processed food appearance, perfect geometric arrangement, artificial symmetry, staged look, catalog photography style, lifeless composition, sterile environment, pure white background, clinical lighting, product shot isolation, watermark, low resolution, blurry, noise artifacts, compression artifacts, amateur photography
 ```
 
 ---
@@ -132,8 +134,9 @@ bright artificial colors, neon tones, oversaturated, over-styled food, glossy ar
 
 | Özellik | Değer |
 |---------|-------|
-| Açı | Flat lay / 45° / Eye-level |
-| Kompozisyon | Rule of thirds, negatif alan |
+| **Format** | **9:16 vertical (1080x1920px)** |
+| Açı | 45° / Eye-level (dikey için ideal) |
+| Kompozisyon | Dikey rule of thirds, üst/alt boşluk |
 | Işık | Soft natural daylight, diffused |
 | Renk | Warm neutrals, desaturated |
 | DOF | Shallow (subject sharp) |
