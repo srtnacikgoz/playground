@@ -4,6 +4,8 @@
 1. **kişiselbağlam.md** - İletişim tercihleri
 2. **hedefler.md** - Aktif görevler
 3. **prompts/KURALLAR.md** - Görsel üretme kuralları (prompt yazarken MUTLAKA oku)
+4. **Risk-ve-Dayaniklilik-Plani.md** - Anti-fragile geliştirme, risk yönetimi (Tetikleyici: `RISK-CHECK`)
+5. **Zihinsel-Algoritma-inşası.md** - GitHub araştırma protokolü (Tetikleyici: `REPO-FIRST`)
 
 ---
 
